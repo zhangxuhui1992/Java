@@ -1,4 +1,4 @@
-package com.ybjt;
+package com.ybjt.test;
 
 /**
  * @author zxh
