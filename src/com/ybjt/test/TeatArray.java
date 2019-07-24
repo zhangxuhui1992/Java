@@ -7,9 +7,12 @@ package com.ybjt.test;
  */
 public class TeatArray {
     public static void main(String args[]){
+        //数组的声明
         int[] array = new int[10];
         for(int num:array){
             System.out.println("num= "+num);
         }
+        //数组的声明
+        int[] arr = {7,8,10};
     }
 }
