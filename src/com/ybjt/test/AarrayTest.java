@@ -11,13 +11,18 @@ package com.ybjt.test;
 public class AarrayTest {
     public static void main(String[] args) {
         //数组的定义
-        int []  num = new int[9];
+        /*int []  num = new int[9];
         int [] arr = {1,2,3,4};
         String [] strs = new String[10];
         for(String s : strs){
             System.out.println(s);
         }
         System.out.println(num[0]);
-        System.out.println(arr[0]);
+        System.out.println(arr[0]);*/
+
+        char [] array = new char[10];
+        for(char num:array){
+            System.out.println(num);
+        }
     }
 }

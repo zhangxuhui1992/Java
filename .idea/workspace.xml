@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/utils/IOTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/test/Scna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/utils/QQBoom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ybjt/test/AarrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ybjt/test/AarrayTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,12 +18,33 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ybjt/utils/IOTools.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/AarrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+            <state relative-caret-position="375">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ybjt/utils/QQBoom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/awt/Robot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -72,8 +95,12 @@
         <option value="$PROJECT_DIR$/src/com/ybjt/test/TestUUID.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/test/TestZhiShu.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/test/TestZhiShu2.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/test/AarrayTest.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/utils/IOTools.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/test/Scnanner.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/test/Scna.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/test/AarrayTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/utils/QQWchatBoom.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/utils/QQBoom.java" />
       </list>
     </option>
   </component>
@@ -91,7 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,6 +148,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IOTools">
+  <component name="RunManager" selected="Application.QQBoom">
     <configuration name="AarrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ybjt.test.AarrayTest" />
       <module name="JavaSE" />
@@ -180,12 +207,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUUID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.test.TestUUID" />
+    <configuration name="QQBoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.utils.QQBoom" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.test.*" />
+          <option name="PATTERN" value="com.ybjt.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,12 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestZhiShu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.test.TestZhiShu" />
+    <configuration name="QQWchatBoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.utils.QQWchatBoom" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.test.*" />
+          <option name="PATTERN" value="com.ybjt.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,8 +233,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestZhiShu2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.test.TestZhiShu2" />
+    <configuration name="Scna" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.test.Scna" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -221,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IOTools" />
-        <item itemvalue="Application.TestUUID" />
+        <item itemvalue="Application.QQBoom" />
+        <item itemvalue="Application.QQWchatBoom" />
         <item itemvalue="Application.AarrayTest" />
-        <item itemvalue="Application.TestZhiShu2" />
-        <item itemvalue="Application.TestZhiShu" />
+        <item itemvalue="Application.Scna" />
+        <item itemvalue="Application.IOTools" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +275,9 @@
       <workItem from="1563972236234" duration="3482000" />
       <workItem from="1564147193399" duration="1673000" />
       <workItem from="1564560305895" duration="106000" />
-      <workItem from="1564561164804" duration="1275000" />
+      <workItem from="1564561164804" duration="1458000" />
+      <workItem from="1564578493611" duration="1394000" />
+      <workItem from="1564649794405" duration="980000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1561689843762</created>
@@ -355,17 +384,31 @@
       <option name="project" value="LOCAL" />
       <updated>1564149293850</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="删除单个文件">
+      <created>1564562491939</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1564562491939</updated>
+    </task>
+    <task id="LOCAL-00017" summary="删除单个文件">
+      <created>1564562578611</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1564562578611</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25643000" />
+    <option name="totallyTimeSpent" value="28200000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1754386" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1808367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -486,7 +529,8 @@
     <MESSAGE value="测试集合、fastjson2" />
     <MESSAGE value="zhishu" />
     <MESSAGE value="数组的学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组的学习" />
+    <MESSAGE value="删除单个文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除单个文件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/test2.java" />
@@ -667,13 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/AarrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/TestUUID.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -683,8 +720,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ybjt/utils/IOTools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        <state relative-caret-position="132">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/Scna.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/AarrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/awt/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/utils/QQBoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
