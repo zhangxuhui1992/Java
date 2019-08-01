@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/test/Scna.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/utils/QQBoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/utils/MyPhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ybjt/test/AarrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ybjt/test/AarrayTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,32 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/AarrayTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ybjt/utils/QQBoom.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ybjt/utils/MyPhone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/awt/Robot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+            <state relative-caret-position="-18">
+              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -101,6 +78,7 @@
         <option value="$PROJECT_DIR$/src/com/ybjt/test/AarrayTest.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/utils/QQWchatBoom.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/utils/QQBoom.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/utils/MyPhone.java" />
       </list>
     </option>
   </component>
@@ -180,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QQBoom">
+  <component name="RunManager" selected="Application.MyPhone">
     <configuration name="AarrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ybjt.test.AarrayTest" />
       <module name="JavaSE" />
@@ -194,8 +172,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOTools" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.utils.IOTools" />
+    <configuration name="MyPhone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.utils.MyPhone" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -248,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyPhone" />
         <item itemvalue="Application.QQBoom" />
         <item itemvalue="Application.QQWchatBoom" />
         <item itemvalue="Application.AarrayTest" />
         <item itemvalue="Application.Scna" />
-        <item itemvalue="Application.IOTools" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +255,7 @@
       <workItem from="1564560305895" duration="106000" />
       <workItem from="1564561164804" duration="1458000" />
       <workItem from="1564578493611" duration="1394000" />
-      <workItem from="1564649794405" duration="980000" />
+      <workItem from="1564649794405" duration="1637000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1561689843762</created>
@@ -398,14 +376,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564562578611</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="qq混炸鸡">
+      <created>1564650822336</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1564650822336</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28200000" />
+    <option name="totallyTimeSpent" value="28857000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1808367" />
@@ -417,7 +402,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924925" visible="true" weight="0.32846716" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865046" visible="true" weight="0.32846716" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -426,7 +411,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32846716" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007508" side_tool="true" weight="0.32846716" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013495" side_tool="true" weight="0.32846716" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32846716" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -530,7 +515,8 @@
     <MESSAGE value="zhishu" />
     <MESSAGE value="数组的学习" />
     <MESSAGE value="删除单个文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除单个文件" />
+    <MESSAGE value="qq混炸鸡" />
+    <option name="LAST_COMMIT_MESSAGE" value="qq混炸鸡" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/test2.java" />
@@ -732,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/AarrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/awt/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -748,11 +727,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ybjt/utils/QQBoom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="476">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/AarrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/utils/MyPhone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>
