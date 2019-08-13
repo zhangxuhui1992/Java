@@ -5,10 +5,12 @@ import java.io.Serializable;
 /**
  * @author zxh
  * @create 2019-07-24 15:50
- * 实体类
+ * 实体类，类的设计
+ * 成员变量即类的属性
+ * 局部变量声明在方法内、方法形参、代码块内、构造器形参、构造器内的变量
  */
 public class User implements Serializable {
-
+    private static final long serialVersionUID = -5555401105921349900L;
     private String name;
     private String age;
     private String address;

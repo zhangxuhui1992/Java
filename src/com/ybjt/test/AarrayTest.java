@@ -1,4 +1,5 @@
 package com.ybjt.test;
+import static java.lang.Math.PI;
 
 /**
  * @author zxh
@@ -19,7 +20,7 @@ public class AarrayTest {
         }
         System.out.println(num[0]);
         System.out.println(arr[0]);*/
-
+        System.out.println(PI);
         char [] array = new char[10];
         for(char num:array){
             System.out.println(num);
