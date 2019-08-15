@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/test/TestScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/utils/ScannerUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/test/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/test/SingtenTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ybjt/test/AarrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ybjt/test/AarrayTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +37,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="436">
-                <caret line="57" column="68" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
+              <first_editor relative-caret-position="464">
+                <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -94,7 +93,6 @@
         <option value="$PROJECT_DIR$/src/com/ybjt/test/Scnanner.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/test/Scna.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/utils/QQWchatBoom.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/utils/QQBoom.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/utils/MyPhone.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/test/ArrayMethod.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/utils/RandomNuber.java" />
@@ -115,6 +113,9 @@
         <option value="$PROJECT_DIR$/src/com/ybjt/test/TestScanner.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/utils/ScannerUtil.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/test/AarrayTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/test/SingtenTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/utils/QQBoom.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/test/AbstractTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -138,8 +139,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-103" />
-    <option name="y" value="98" />
+    <option name="x" value="-105" />
+    <option name="y" value="96" />
     <option name="width" value="1920" />
     <option name="height" value="515" />
   </component>
@@ -151,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,6 +173,21 @@
             </path>
             <path>
               <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ybjt" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ybjt" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="SingtenTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -178,7 +195,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,9 +227,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestScanner">
-    <configuration name="AarrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.test.AarrayTest" />
+  <component name="RunManager" selected="Application.AbstractTest">
+    <configuration name="AbstractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.test.AbstractTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -251,8 +267,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBianliang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.test.TestBianliang" />
+    <configuration name="SingtenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.test.SingtenTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -279,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractTest" />
+        <item itemvalue="Application.SingtenTest" />
         <item itemvalue="Application.TestScanner" />
         <item itemvalue="Application.ArgumentMethod" />
         <item itemvalue="Application.MyPhone" />
-        <item itemvalue="Application.TestBianliang" />
-        <item itemvalue="Application.AarrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +335,9 @@
       <workItem from="1565611401056" duration="5505000" />
       <workItem from="1565657766826" duration="18476000" />
       <workItem from="1565699629681" duration="761000" />
-      <workItem from="1565743771648" duration="22164000" />
+      <workItem from="1565743771648" duration="22318000" />
+      <workItem from="1565788102871" duration="1619000" />
+      <workItem from="1565830078861" duration="7035000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1561689843762</created>
@@ -496,11 +514,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565688831570</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="面向对象">
+      <created>1565775105487</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1565775105487</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97459000" />
+    <option name="totallyTimeSpent" value="106267000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -515,7 +540,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21862349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22537112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -655,7 +680,8 @@
     <MESSAGE value="readme修改" />
     <MESSAGE value="数组的应用" />
     <MESSAGE value="java初级" />
-    <option name="LAST_COMMIT_MESSAGE" value="java初级" />
+    <MESSAGE value="面向对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="面向对象" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/test2.java" />
@@ -940,13 +966,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/customer.java" />
     <entry file="file://$PROJECT_DIR$/src/com/ybjt/bean/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
@@ -986,13 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/utils/IOTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ybjt/utils/MyPhone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -1007,16 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/utils/QQBoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/AarrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
@@ -1024,11 +1027,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/utils/IOTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4452" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/utils/QQBoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/SingtenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/AbstractTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="436">
-            <caret line="57" column="68" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
+          <first_editor relative-caret-position="464">
+            <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>
