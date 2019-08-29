@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study01/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study01/variate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study01/BinarnyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study01/NumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study01/StringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/com/ybjt/test/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/com/ybjt/test/test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,12 +32,21 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ybjt/study01/variate.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ybjt/study01/StringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="13" column="28" lean-forward="true" selection-end-line="22" />
+            <state relative-caret-position="420">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ybjt/study01/BinarnyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -67,9 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ybjt/test/test2.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/test/variable.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/test/rbacControl.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/test/numbers.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/test/mathPackage.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/test/whileTest.java" />
@@ -118,6 +123,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/ybjt/study01/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/study01/variate.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study01/NumberTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study01/StringTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study01/BinarnyTest.java" />
       </list>
     </option>
   </component>
@@ -220,13 +228,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.variate">
-    <configuration name="AbstractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.test.AbstractTest" />
+  <component name="RunManager" selected="Application.BinarnyTest">
+    <configuration name="BinarnyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study01.BinarnyTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.test.*" />
+          <option name="PATTERN" value="com.ybjt.study01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,12 +255,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.test.ProxyTest" />
+    <configuration name="NumberTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study01.NumberTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.test.*" />
+          <option name="PATTERN" value="com.ybjt.study01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,12 +268,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.test.Test" />
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study01.StringTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.test.*" />
+          <option name="PATTERN" value="com.ybjt.study01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarnyTest" />
+        <item itemvalue="Application.StringTest" />
+        <item itemvalue="Application.NumberTest" />
         <item itemvalue="Application.variate" />
         <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ProxyTest" />
-        <item itemvalue="Application.AbstractTest" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +348,8 @@
       <workItem from="1566824227975" duration="1665000" />
       <workItem from="1566908397224" duration="1945000" />
       <workItem from="1566998156419" duration="610000" />
-      <workItem from="1567056911429" duration="7552000" />
+      <workItem from="1567056911429" duration="7594000" />
+      <workItem from="1567082024964" duration="4507000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1561689843762</created>
@@ -545,11 +554,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566401175172</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="手撸基础01">
+      <created>1567070332646</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1567070332646</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131907000" />
+    <option name="totallyTimeSpent" value="136456000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -563,7 +579,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2665317" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27125505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -572,7 +588,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49730095" visible="true" weight="0.2729927" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49730095" visible="true" weight="0.27445257" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36642337" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -679,7 +695,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="four commit" />
     <MESSAGE value="five commit" />
     <MESSAGE value="six commit" />
     <MESSAGE value="7 commit" />
@@ -704,34 +719,14 @@
     <MESSAGE value="抽象、接口" />
     <MESSAGE value="异常学习" />
     <MESSAGE value="多线程" />
-    <option name="LAST_COMMIT_MESSAGE" value="多线程" />
+    <MESSAGE value="手撸基础01" />
+    <option name="LAST_COMMIT_MESSAGE" value="手撸基础01" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/stringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/numbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/rbacControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/awt/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -1092,8 +1087,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ybjt/study01/variate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="28" lean-forward="true" selection-end-line="22" />
+        <state relative-caret-position="252">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study01/NumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study01/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study01/BinarnyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
