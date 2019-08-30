@@ -11,6 +11,7 @@ public class BinarnyTest {
         int num1 = 123;//十进制0-9
         int num2 = 012357;//八进制以0开头 0-7
         int num3 = 0x23F;//十六进制以0x开头 0-9 A-F
+        //以十进制输出
         System.out.println(num);//12
         System.out.println(num1);//123
         System.out.println(num2);//5359
