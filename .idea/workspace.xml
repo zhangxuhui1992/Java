@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/project01/TestUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/project01/Untily.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study03/AddArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study03/ArraySearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study03/ArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study03/ArrayTestFuZhi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study03/ErArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study03/ReserArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study03/YangHuiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,19 +38,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ybjt/project01/TestUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ybjt/study03/ArraySearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ybjt/project01/Untily.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="-30">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -74,13 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ybjt/test/Scna.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/utils/QQWchatBoom.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/utils/MyPhone.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/test/ArrayMethod.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/utils/RandomNuber.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/utils/RandomNumber.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/test/test.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/test/While.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/test/DoWhile.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/test/For.java" />
@@ -125,6 +114,13 @@
         <option value="$PROJECT_DIR$/src/com/ybjt/study02/BreakContinueTest.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/project01/Untily.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/project01/TestUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study03/ArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study03/ErArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study03/YangHuiTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study03/ArrayTestFuZhi.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study03/AddArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study03/ReserArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study03/ArraySearchTest.java" />
       </list>
     </option>
   </component>
@@ -185,7 +181,7 @@
               <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ybjt" type="462c0819:PsiDirectoryNode" />
-              <item name="project01" type="462c0819:PsiDirectoryNode" />
+              <item name="study03" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
@@ -230,13 +226,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestUtils">
-    <configuration name="BreakContinueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study02.BreakContinueTest" />
+  <component name="RunManager" selected="Application.ArraySearchTest">
+    <configuration name="AddArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study03.AddArrayTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.study02.*" />
+          <option name="PATTERN" value="com.ybjt.study03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,12 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoWhileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study02.DoWhileTest" />
+    <configuration name="ArraySearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study03.ArraySearchTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.study02.*" />
+          <option name="PATTERN" value="com.ybjt.study03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,12 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.project01.TestUtils" />
+    <configuration name="ArrayTestFuZhi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study03.ArrayTestFuZhi" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.project01.*" />
+          <option name="PATTERN" value="com.ybjt.study03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,12 +266,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZhuShuTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study02.ZhuShuTest" />
+    <configuration name="ReserArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study03.ReserArrayTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.study02.*" />
+          <option name="PATTERN" value="com.ybjt.study03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,12 +279,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZhuShuTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study02.ZhuShuTest2" />
+    <configuration name="YangHuiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study03.YangHuiTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.study02.*" />
+          <option name="PATTERN" value="com.ybjt.study03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestUtils" />
-        <item itemvalue="Application.BreakContinueTest" />
-        <item itemvalue="Application.DoWhileTest" />
-        <item itemvalue="Application.ZhuShuTest2" />
-        <item itemvalue="Application.ZhuShuTest" />
+        <item itemvalue="Application.ArraySearchTest" />
+        <item itemvalue="Application.ReserArrayTest" />
+        <item itemvalue="Application.AddArrayTest" />
+        <item itemvalue="Application.ArrayTestFuZhi" />
+        <item itemvalue="Application.YangHuiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +352,10 @@
       <workItem from="1567211811064" duration="2262000" />
       <workItem from="1567396289048" duration="3174000" />
       <workItem from="1567428787130" duration="6444000" />
-      <workItem from="1567517229243" duration="3018000" />
+      <workItem from="1567517229243" duration="3052000" />
+      <workItem from="1567605498975" duration="4338000" />
+      <workItem from="1567687682383" duration="4249000" />
+      <workItem from="1568032869529" duration="4474000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1561689843762</created>
@@ -589,11 +588,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567435346117</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="手撸基础05">
+      <created>1567521817016</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1567521817016</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167581000" />
+    <option name="totallyTimeSpent" value="180676000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,7 +614,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2948718" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31039137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -617,7 +623,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49730095" weight="0.43941605" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49730095" visible="true" weight="0.3459854" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36642337" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -724,7 +730,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8 commit" />
     <MESSAGE value="9commit" />
     <MESSAGE value="10commit" />
     <MESSAGE value="实体类的添加" />
@@ -749,60 +754,14 @@
     <MESSAGE value="手撸基础02" />
     <MESSAGE value="手撸基础03" />
     <MESSAGE value="手撸基础04" />
-    <option name="LAST_COMMIT_MESSAGE" value="手撸基础04" />
+    <MESSAGE value="手撸基础05" />
+    <option name="LAST_COMMIT_MESSAGE" value="手撸基础05" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/mathPackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/TestBianliang.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/MethodRepat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-346">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/ArgumentMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/customer.java" />
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="1496" column="26" selection-start-line="1496" selection-start-column="26" selection-end-line="1496" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/TestScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -1105,6 +1064,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/project01/TestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ybjt/project01/Untily.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1112,10 +1078,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/project01/TestUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study03/ArrayTestFuZhi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study03/ErArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study03/ReserArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study03/AddArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study03/YangHuiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study03/ArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study03/ArraySearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
