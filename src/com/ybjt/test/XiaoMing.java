@@ -1,5 +1,6 @@
 package com.ybjt.test;
 
+import com.ybjt.bean.Car;
 import com.ybjt.bean.User;
 
 /**
@@ -11,5 +12,8 @@ public class XiaoMing extends User {
         XiaoMing xiaoMing = new XiaoMing();
         xiaoMing.setName("小明");
         xiaoMing.song();
+
+        Car aodi = new Car.Bulider().setNum("2").setOld("20").build();
+        System.out.println(aodi);
     }
 }
