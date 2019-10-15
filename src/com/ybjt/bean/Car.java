@@ -12,7 +12,7 @@ public class Car {
     private String old;
     private String num;
 
-    public class Bulider{
+    public static class Bulider{
         private String name = "奥迪";
         private String old;
         private String num;

@@ -15,7 +15,8 @@ public class User implements Serializable {
     private String age;
     private String address;
 
-    public User() {
+    public User(String name) {
+        this.name = name;
     }
 
     /**
@@ -24,8 +25,9 @@ public class User implements Serializable {
      * @param age 年龄
      * @param address 地址
      */
-    public User(String name, String age, String address) {
-        this.name = name;
+    public User(String age, String address) {
+        //this.name = name;
+        this("bob");
         this.age = age;
         this.address = address;
     }
