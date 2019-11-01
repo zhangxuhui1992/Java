@@ -1,7 +1,4 @@
 package com.ybjt.study05;
-
-import com.sun.org.apache.bcel.internal.generic.NEW;
-
 /**
  * 单例设计模式 饿汉式
  * @author zxh
