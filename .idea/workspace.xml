@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study05/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study06/AbsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study06/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study06/TestFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study06/InterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study06/StaticProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study06/TemplatesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ybjt/study05/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ybjt/study05/Person.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,16 +34,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="6530">
-                <caret line="1773" selection-start-line="1773" selection-end-line="1773" />
-                <folding>
-                  <element signature="imports" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/com/ybjt/study06/StaticProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,6 +59,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -75,9 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ybjt/test/SingtenTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/utils/QQBoom.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/test/AbstractTest.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/test/ProxyTest.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/test/ThreadTest.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/study01/HelloWorld.java" />
@@ -126,6 +127,9 @@
         <option value="$PROJECT_DIR$/src/com/ybjt/bean/Car.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/study06/AbsTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study06/TemplatesTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study06/InterfaceTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study06/StaticProxy.java" />
       </list>
     </option>
   </component>
@@ -161,8 +165,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,13 +184,6 @@
               <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ybjt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ybjt" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
@@ -234,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AbsTest">
+  <component name="RunManager" selected="Application.StaticProxy">
     <configuration name="AbsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ybjt.study06.AbsTest" />
       <module name="JavaSE" />
@@ -261,19 +258,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ErArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study03.ErArrayTest" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ybjt.study03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ybjt.study05.MainTest" />
       <module name="JavaSE" />
@@ -287,12 +271,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study05.TestDog" />
+    <configuration name="StaticProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study06.StaticProxy" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.study05.*" />
+          <option name="PATTERN" value="com.ybjt.study06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,8 +284,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study06.TestFinal" />
+    <configuration name="TemplatesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study06.TemplatesTest" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ybjt.study06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study06.mainTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -315,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticProxy" />
+        <item itemvalue="Application.mainTest" />
+        <item itemvalue="Application.TemplatesTest" />
         <item itemvalue="Application.AbsTest" />
         <item itemvalue="Application.AbstractTest" />
-        <item itemvalue="Application.TestFinal" />
-        <item itemvalue="Application.ErArrayTest" />
-        <item itemvalue="Application.TestDog" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +395,8 @@
       <workItem from="1572265910165" duration="3539000" />
       <workItem from="1572435544690" duration="959000" />
       <workItem from="1572509605696" duration="638000" />
-      <workItem from="1572577568502" duration="8324000" />
+      <workItem from="1572577568502" duration="10002000" />
+      <workItem from="1572830504862" duration="7880000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1561689843762</created>
@@ -666,11 +664,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572587016869</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="手撸基础09">
+      <created>1572594904009</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1572594904009</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226694000" />
+    <option name="totallyTimeSpent" value="236252000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -683,9 +688,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21997301" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22334683" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -833,62 +837,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study01/StringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study01/NumberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study01/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study01/FuZhiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study01/CompaireTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study01/LuojiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study01/IfElseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study01/ForTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ybjt/study02/ForWhileTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="571">
@@ -1195,6 +1143,78 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study06/InterfaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study06/TemplatesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="8" selection-start-line="15" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/lib/fastjson-1.2.53.jar!/com/alibaba/fastjson/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/lib/fastjson-1.2.53.jar!/com/alibaba/fastjson/annotation/JSONCreator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/lib/fastjson-1.2.53.jar!/com/alibaba/fastjson/annotation/JSONField.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/lib/fastjson-1.2.53.jar!/com/alibaba/fastjson/annotation/JSONPOJOBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/lib/fastjson-1.2.53.jar!/com/alibaba/fastjson/annotation/JSONType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study06/StaticProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
