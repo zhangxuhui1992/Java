@@ -5,7 +5,6 @@ import org.junit.Test;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAccessor;
-import java.util.logging.SimpleFormatter;
 
 /**
  * @author zxh
