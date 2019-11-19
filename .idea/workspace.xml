@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study07/ComparableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study07/CompartorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study07/MyEnumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study07/SysremTest.java" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="手撸基础012">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study07/FastJsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study08/CollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study08/GenericTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study08/MapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ybjt/study07/TimeNewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ybjt/study07/TimeNewTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +39,20 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ybjt/study08/GenericTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="118" column="29" lean-forward="true" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,6 +69,10 @@
       <find>`</find>
       <find>toString</find>
       <find>sort</find>
+      <find>DEFAULTCAPACITY_EMPTY_ELEMENTDATA</find>
+      <find>prev</find>
+      <find>10;</find>
+      <find>size</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -65,12 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ybjt/study02/DoWhileTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study02/ForWhileTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study02/ForForTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study02/ZhuShuTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study02/ZhuShuTest2.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study02/BreakContinueTest.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/project01/Untily.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/project01/TestUtils.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/study03/ArrayTest.java" />
@@ -89,7 +102,6 @@
         <option value="$PROJECT_DIR$/src/com/ybjt/test/XiaoMing.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/study05/Dog.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/study05/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study05/Person.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/study05/Students.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/study06/TestFinal.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/study06/AbstractTest.java" />
@@ -116,6 +128,13 @@
         <option value="$PROJECT_DIR$/src/com/ybjt/study07/CompartorTest.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/study07/SysremTest.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/study07/MyEnumTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study07/FastJsonTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study08/MapTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study08/CollectionTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study08/GenerticTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study05/Person.java" />
+        <option value="$PROJECT_DIR$/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study08/GenericTest.java" />
       </list>
     </option>
   </component>
@@ -151,46 +170,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ybjt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ybjt" type="462c0819:PsiDirectoryNode" />
-              <item name="study07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
               <item name="JavaSE" type="58d84e3e:PackageViewProjectNode" />
               <item name="JavaSE" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -218,24 +215,25 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.ybjt.study07" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ybjt.study02" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workSpace\idea_workspace\JavaSE\src\lib" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workSpace\idea_workspace\JavaSE" />
+      <recent name="D:\workSpace\idea_workspace\JavaSE\src" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ybjt.study02" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workSpace\idea_workspace\JavaSE" />
-      <recent name="D:\workSpace\idea_workspace\JavaSE\src" />
+      <recent name="D:\workSpace\idea_workspace\JavaSE\src\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -250,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyEnumTest.test">
+  <component name="RunManager" selected="JUnit.GenericTest.test4">
     <configuration name="MainTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ybjt.study05.MainTest" />
       <module name="JavaSE" />
@@ -264,81 +262,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparableTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GenericTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.study07.*" />
+          <option name="PATTERN" value="com.ybjt.study08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ybjt.study07" />
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study07.ComparableTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompartorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ybjt.study07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ybjt.study07" />
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study07.CompartorTest" />
+      <option name="PACKAGE_NAME" value="com.ybjt.study08" />
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study08.GenericTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyEnumTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GenericTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.study07.*" />
+          <option name="PATTERN" value="com.ybjt.study08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ybjt.study07" />
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study07.MyEnumTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.ybjt.study08" />
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study08.GenericTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeNewTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GenericTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.study07.*" />
+          <option name="PATTERN" value="com.ybjt.study08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ybjt.study07" />
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study07.TimeNewTest" />
+      <option name="PACKAGE_NAME" value="com.ybjt.study08" />
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study08.GenericTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ybjt.study08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ybjt.study08" />
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study08.GenericTest" />
       <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeNewTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.study07.*" />
+          <option name="PATTERN" value="com.ybjt.study08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ybjt.study07" />
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study07.TimeNewTest" />
-      <option name="METHOD_NAME" value="test5" />
+      <option name="PACKAGE_NAME" value="com.ybjt.study08" />
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study08.MapTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -346,11 +344,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyEnumTest.test" />
-        <item itemvalue="JUnit.CompartorTest.test" />
-        <item itemvalue="JUnit.ComparableTest.test1" />
-        <item itemvalue="JUnit.TimeNewTest.test5" />
-        <item itemvalue="JUnit.TimeNewTest.test4" />
+        <item itemvalue="JUnit.GenericTest.test4" />
+        <item itemvalue="JUnit.GenericTest.test3" />
+        <item itemvalue="JUnit.GenericTest.test2" />
+        <item itemvalue="JUnit.GenericTest.test" />
+        <item itemvalue="JUnit.MapTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -442,6 +440,10 @@
       <workItem from="1573648357995" duration="6758000" />
       <workItem from="1573693076870" duration="8009000" />
       <workItem from="1573738132648" duration="1360000" />
+      <workItem from="1573803299853" duration="2169000" />
+      <workItem from="1574040182332" duration="16231000" />
+      <workItem from="1574082853571" duration="3806000" />
+      <workItem from="1574124944365" duration="13375000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1561689843762</created>
@@ -730,43 +732,50 @@
       <option name="project" value="LOCAL" />
       <updated>1573655790138</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="手撸基础012">
+      <created>1573803341735</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1573803341735</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ComparableTest_test1 - 2019.11.14 at 09h 41m 09s.xml">
-      <configuration name="ComparableTest.test1" configurationId="JUnit" />
+    <history-entry file="GenericTest_test - 2019.11.19 at 15h 33m 36s.xml">
+      <configuration name="GenericTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComparableTest_test1 - 2019.11.14 at 09h 43m 29s.xml">
-      <configuration name="ComparableTest.test1" configurationId="JUnit" />
+    <history-entry file="GenericTest_test2 - 2019.11.19 at 16h 02m 18s.xml">
+      <configuration name="GenericTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompartorTest_test - 2019.11.14 at 10h 08m 53s.xml">
-      <configuration name="CompartorTest.test" configurationId="JUnit" />
+    <history-entry file="GenericTest_test2 - 2019.11.19 at 16h 02m 27s.xml">
+      <configuration name="GenericTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompartorTest_test - 2019.11.14 at 10h 09m 04s.xml">
-      <configuration name="CompartorTest.test" configurationId="JUnit" />
+    <history-entry file="GenericTest_test2 - 2019.11.19 at 16h 03m 51s.xml">
+      <configuration name="GenericTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompartorTest_test - 2019.11.14 at 10h 12m 54s.xml">
-      <configuration name="CompartorTest.test" configurationId="JUnit" />
+    <history-entry file="GenericTest_test3 - 2019.11.19 at 16h 21m 50s.xml">
+      <configuration name="GenericTest.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompartorTest_test - 2019.11.14 at 10h 13m 08s.xml">
-      <configuration name="CompartorTest.test" configurationId="JUnit" />
+    <history-entry file="GenericTest_test3 - 2019.11.19 at 16h 22m 01s.xml">
+      <configuration name="GenericTest.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompartorTest_test - 2019.11.14 at 10h 17m 19s.xml">
-      <configuration name="CompartorTest.test" configurationId="JUnit" />
+    <history-entry file="GenericTest_test3 - 2019.11.19 at 16h 22m 15s.xml">
+      <configuration name="GenericTest.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyEnumTest_test - 2019.11.14 at 11h 24m 59s.xml">
-      <configuration name="MyEnumTest.test" configurationId="JUnit" />
+    <history-entry file="GenericTest_test3 - 2019.11.19 at 16h 22m 21s.xml">
+      <configuration name="GenericTest.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyEnumTest_test - 2019.11.14 at 11h 25m 21s.xml">
-      <configuration name="MyEnumTest.test" configurationId="JUnit" />
+    <history-entry file="GenericTest_test3 - 2019.11.19 at 16h 22m 32s.xml">
+      <configuration name="GenericTest.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyEnumTest_test - 2019.11.14 at 21h 30m 41s.xml">
-      <configuration name="MyEnumTest.test" configurationId="JUnit" />
+    <history-entry file="GenericTest_test4 - 2019.11.19 at 17h 12m 43s.xml">
+      <configuration name="GenericTest.test4" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276735000" />
+    <option name="totallyTimeSpent" value="312316000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -780,7 +789,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.2611336" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.280027" />
       <window_info id="Structure" order="1" sideWeight="0.5007299" side_tool="true" weight="0.23549257" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -789,17 +798,18 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49662617" weight="0.35518292" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49662617" visible="true" weight="0.28658536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.61890244" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32846716" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.70948905" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.70884144" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32846716" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5033738" side_tool="true" weight="0.3459854" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3270073" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5006748" side_tool="true" weight="0.3246951" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49932525" weight="0.3246951" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" side_tool="true" weight="0.3299595" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966262" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -898,7 +908,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数组的学习" />
     <MESSAGE value="删除单个文件" />
     <MESSAGE value="qq混炸鸡" />
     <MESSAGE value="我的电话号码" />
@@ -923,7 +932,8 @@
     <MESSAGE value="手撸基础09" />
     <MESSAGE value="手撸基础010" />
     <MESSAGE value="手撸基础011" />
-    <option name="LAST_COMMIT_MESSAGE" value="手撸基础011" />
+    <MESSAGE value="手撸基础012" />
+    <option name="LAST_COMMIT_MESSAGE" value="手撸基础012" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -935,181 +945,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study06/AbsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study06/InterfaceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study06/TemplatesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="8" selection-start-line="15" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/lib/fastjson-1.2.53.jar!/com/alibaba/fastjson/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/lib/fastjson-1.2.53.jar!/com/alibaba/fastjson/annotation/JSONCreator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/lib/fastjson-1.2.53.jar!/com/alibaba/fastjson/annotation/JSONField.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/lib/fastjson-1.2.53.jar!/com/alibaba/fastjson/annotation/JSONPOJOBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/lib/fastjson-1.2.53.jar!/com/alibaba/fastjson/annotation/JSONType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study06/StaticProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/lang/RuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study06/ExceptionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study06/MyExeption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study06/InerClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study06/AbstractTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="263" column="45" selection-start-line="263" selection-start-column="32" selection-end-line="263" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/utils/ScannerUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/utils/RandomNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/utils/QQBoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/utils/MyPhone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/utils/IOTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="187" column="25" lean-forward="true" selection-start-line="187" selection-start-column="25" selection-end-line="187" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="87" column="65" selection-start-line="87" selection-start-column="57" selection-end-line="87" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study07/VsCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ybjt/study07/ThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -1158,13 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="113" column="31" lean-forward="true" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ybjt/study07/TimeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -1197,25 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-272">
           <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study07/StringTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study07/StringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1295,13 +1104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="1250" column="33" lean-forward="true" selection-start-line="1250" selection-start-column="33" selection-end-line="1250" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ybjt/study07/ComparableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1078">
@@ -1350,6 +1152,228 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study07/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="289" lean-forward="true" selection-start-line="289" selection-end-line="289" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="86" column="17" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/javafx-src.zip!/com/sun/prism/impl/BaseResourcePool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="474" column="34" selection-start-line="474" selection-start-column="34" selection-end-line="474" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study07/StringTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study07/FastJsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="3214" column="19" selection-start-line="3214" selection-start-column="15" selection-end-line="3214" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study08/CollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study08/MapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="106" column="23" lean-forward="true" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="23" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study05/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="468" selection-start-line="468" selection-end-line="468" />
+          <folding>
+            <element signature="e#19103#19104#0" expanded="true" />
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+            <element signature="e#24329#24330#0" expanded="true" />
+            <element signature="e#24394#24395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/jar/Attributes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#1684#1685#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/jar/Manifest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#870#1063#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="194" column="25" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="221" column="40" selection-start-line="221" selection-start-column="31" selection-end-line="221" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/io/InputStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="167" column="25" lean-forward="true" selection-start-line="167" selection-start-column="25" selection-end-line="167" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/io/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="71" column="41" lean-forward="true" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="543" column="22" selection-start-line="543" selection-start-column="18" selection-end-line="543" selection-end-column="22" />
+          <folding>
+            <element signature="e#4677#4678#0" expanded="true" />
+            <element signature="e#4714#4715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study08/GenericTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="118" column="29" lean-forward="true" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
