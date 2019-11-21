@@ -15,6 +15,9 @@ public class User implements Serializable {
     private String age;
     private String address;
 
+    public User() {
+    }
+
     public User(String name) {
         this.name = name;
     }

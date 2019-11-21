@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study08/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study08/BufferInpuStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study08/InputStreamReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study08/ObjectStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study08/Stream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study09/InetAddrssTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study09/TCPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study09/UDPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study09/URLTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study10/ReflectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/古诗.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study10/LambdaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study10/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study10/StaticProxyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ybjt/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ybjt/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ybjt/study10/ReflectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ybjt/study10/ReflectTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,29 +37,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ybjt/study10/ReflectTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ybjt/bean/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -98,9 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ybjt/study04/ObjectTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/bean/Cat.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/bean/Dog.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/test/XiaoMing.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/study05/Dog.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/study05/MainTest.java" />
@@ -149,6 +117,9 @@
         <option value="$PROJECT_DIR$/src/com/ybjt/study09/URLTest.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/bean/User.java" />
         <option value="$PROJECT_DIR$/src/com/ybjt/study10/ReflectTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study10/StaticProxyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study10/ProxyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/study10/LambdaTest.java" />
       </list>
     </option>
   </component>
@@ -195,39 +166,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ybjt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ybjt" type="462c0819:PsiDirectoryNode" />
-              <item name="study10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -284,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReflectTest.test">
+  <component name="RunManager" selected="JUnit.LambdaTest.test">
     <configuration name="MainTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ybjt.study05.MainTest" />
       <module name="JavaSE" />
@@ -298,12 +237,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study09.URLTest" />
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study10.ProxyTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.study09.*" />
+          <option name="PATTERN" value="com.ybjt.study10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,7 +250,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StaticProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study10.StaticProxyTest" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ybjt.study10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ybjt.study10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ybjt.study10" />
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study10.LambdaTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -321,55 +289,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ybjt.study10" />
       <option name="MAIN_CLASS_NAME" value="com.ybjt.study10.ReflectTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPTest.client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReflectTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.study09.*" />
+          <option name="PATTERN" value="com.ybjt.study10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ybjt.study09" />
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study09.TCPTest" />
-      <option name="METHOD_NAME" value="client" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UDPTest.recive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ybjt.study09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ybjt.study09" />
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study09.UDPTest" />
-      <option name="METHOD_NAME" value="recive" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UDPTest.send" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ybjt.study09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ybjt.study09" />
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study09.UDPTest" />
-      <option name="METHOD_NAME" value="send" />
+      <option name="PACKAGE_NAME" value="com.ybjt.study10" />
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study10.ReflectTest" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -377,11 +313,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReflectTest.test" />
-        <item itemvalue="Application.URLTest" />
-        <item itemvalue="JUnit.UDPTest.send" />
-        <item itemvalue="JUnit.UDPTest.recive" />
-        <item itemvalue="JUnit.TCPTest.client" />
+        <item itemvalue="JUnit.LambdaTest.test" />
+        <item itemvalue="Application.ProxyTest" />
+        <item itemvalue="Application.StaticProxyTest" />
+        <item itemvalue="JUnit.ReflectTest.test4" />
+        <item itemvalue="JUnit.ReflectTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -479,7 +415,9 @@
       <workItem from="1574124944365" duration="13419000" />
       <workItem from="1574165547338" duration="1801000" />
       <workItem from="1574212043559" duration="16084000" />
-      <workItem from="1574257169686" duration="1696000" />
+      <workItem from="1574257169686" duration="1726000" />
+      <workItem from="1574298571288" duration="11255000" />
+      <workItem from="1574337714155" duration="89000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1561689843762</created>
@@ -782,43 +720,50 @@
       <option name="project" value="LOCAL" />
       <updated>1574155374471</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="手撸基础014">
+      <created>1574260160117</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1574260160117</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UDPTest_recive - 2019.11.20 at 16h 38m 43s.xml">
-      <configuration name="UDPTest.recive" configurationId="JUnit" />
+    <history-entry file="ReflectTest_test2 - 2019.11.21 at 09h 30m 48s.xml">
+      <configuration name="ReflectTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UDPTest_recive - 2019.11.20 at 16h 40m 13s.xml">
-      <configuration name="UDPTest.recive" configurationId="JUnit" />
+    <history-entry file="ReflectTest_test2 - 2019.11.21 at 09h 31m 07s.xml">
+      <configuration name="ReflectTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UDPTest_send - 2019.11.20 at 16h 40m 13s.xml">
-      <configuration name="UDPTest.send" configurationId="JUnit" />
+    <history-entry file="ReflectTest_test2 - 2019.11.21 at 09h 33m 48s.xml">
+      <configuration name="ReflectTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReflectTest_test - 2019.11.20 at 21h 46m 13s.xml">
-      <configuration name="ReflectTest.test" configurationId="JUnit" />
+    <history-entry file="ReflectTest_test2 - 2019.11.21 at 09h 40m 16s.xml">
+      <configuration name="ReflectTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReflectTest_test - 2019.11.20 at 21h 52m 30s.xml">
-      <configuration name="ReflectTest.test" configurationId="JUnit" />
+    <history-entry file="ReflectTest_test2 - 2019.11.21 at 09h 41m 36s.xml">
+      <configuration name="ReflectTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReflectTest_test - 2019.11.20 at 21h 52m 54s.xml">
-      <configuration name="ReflectTest.test" configurationId="JUnit" />
+    <history-entry file="ReflectTest_test4 - 2019.11.21 at 11h 14m 56s.xml">
+      <configuration name="ReflectTest.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReflectTest_test - 2019.11.20 at 21h 54m 00s.xml">
-      <configuration name="ReflectTest.test" configurationId="JUnit" />
+    <history-entry file="ReflectTest_test4 - 2019.11.21 at 11h 15m 14s.xml">
+      <configuration name="ReflectTest.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReflectTest_test - 2019.11.20 at 21h 54m 31s.xml">
-      <configuration name="ReflectTest.test" configurationId="JUnit" />
+    <history-entry file="LambdaTest_test - 2019.11.21 at 14h 33m 23s.xml">
+      <configuration name="LambdaTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReflectTest_test - 2019.11.20 at 21h 55m 34s.xml">
-      <configuration name="ReflectTest.test" configurationId="JUnit" />
+    <history-entry file="LambdaTest_test - 2019.11.21 at 14h 35m 31s.xml">
+      <configuration name="LambdaTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReflectTest_test - 2019.11.20 at 21h 56m 06s.xml">
-      <configuration name="ReflectTest.test" configurationId="JUnit" />
+    <history-entry file="LambdaTest_test - 2019.11.21 at 14h 35m 54s.xml">
+      <configuration name="LambdaTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="331941000" />
+    <option name="totallyTimeSpent" value="343315000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -832,7 +777,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.29419702" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.3043185" />
       <window_info id="Structure" order="1" sideWeight="0.5007299" side_tool="true" weight="0.23549257" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -952,7 +897,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="qq混炸鸡" />
     <MESSAGE value="我的电话号码" />
     <MESSAGE value="随机数" />
     <MESSAGE value="开始读书学习的第一天，javase基础go go go !" />
@@ -977,7 +921,8 @@
     <MESSAGE value="手撸基础011" />
     <MESSAGE value="手撸基础012" />
     <MESSAGE value="手撸基础013" />
-    <option name="LAST_COMMIT_MESSAGE" value="手撸基础013" />
+    <MESSAGE value="手撸基础014" />
+    <option name="LAST_COMMIT_MESSAGE" value="手撸基础014" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -989,34 +934,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study07/SysremTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study07/MyEnumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study07/StringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="289" lean-forward="true" selection-start-line="289" selection-end-line="289" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -1164,34 +1081,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/古诗.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/io/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="138" column="15" selection-start-line="138" selection-start-column="15" selection-end-line="138" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/复制.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1388,9 +1281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ybjt/study09/URLTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -1403,17 +1293,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ybjt/bean/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="-782">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/复制.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/古诗.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-45237">
+            <caret line="193" column="9" lean-forward="true" selection-start-line="193" selection-start-column="9" selection-end-line="193" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ybjt/study10/ReflectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="-1592">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study10/StaticProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="14" lean-forward="true" selection-end-line="43" selection-end-column="1" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study10/ProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study10/LambdaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
           </folding>
         </state>
       </provider>
