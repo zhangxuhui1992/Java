@@ -7,7 +7,7 @@ package com.ybjt.bean;
  * @author zxh
  * @create 2019-10-08 13:43
  */
-public class Car {
+public class Car implements Cloneable{
     private String name;
     private String old;
     private String num;
@@ -45,6 +45,11 @@ public class Car {
                 ", old='" + old + '\'' +
                 ", num='" + num + '\'' +
                 '}';
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }
 

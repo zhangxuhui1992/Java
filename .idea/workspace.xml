@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study10/LambdaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study10/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study10/StaticProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/DosCommder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/RobotTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/StringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/study/TimerWithJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study10/MathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/study10/mainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/META-INF/JavaSE.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/META-INF/JavaSE.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ybjt/bean/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ybjt/bean/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ybjt/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ybjt/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ybjt/study10/ReflectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ybjt/study10/ReflectTest.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,9 +40,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -49,78 +50,10 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>`</find>
-      <find>toString</find>
-      <find>sort</find>
-      <find>DEFAULTCAPACITY_EMPTY_ELEMENTDATA</find>
-      <find>prev</find>
-      <find>10;</find>
-      <find>size</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/ybjt/test/XiaoMing.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study05/Dog.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study05/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study05/Students.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study06/TestFinal.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study06/AbstractTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/bean/Car.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study06/AbsTest.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study06/TemplatesTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study06/InterfaceTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study06/StaticProxy.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study06/MyExeption.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study06/ExceptionTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study06/InerClassTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study07/VsCode.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study07/ThreadTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study07/ThreadTest2.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study07/ThreadPoolTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study07/StringTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study07/StringTest2Test.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study07/StringTest2.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study07/TimeTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study07/StringBufferTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study07/TimeNewTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study07/ComparableTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study07/CompartorTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study07/SysremTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study07/MyEnumTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study07/FastJsonTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study08/MapTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study08/CollectionTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study08/GenerticTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study05/Person.java" />
-        <option value="$PROJECT_DIR$/jdbc.properties" />
-        <option value="$PROJECT_DIR$/古诗.txt" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study08/GenericTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study08/InputStreamReaderTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study08/Stream.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study08/BufferInpuStreamTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study08/Animal.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study08/ObjectStreamTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study09/InetAddrssTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study09/TCPTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study09/UDPTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study09/URLTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/bean/User.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study10/ReflectTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study10/StaticProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study10/ProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ybjt/study10/LambdaTest.java" />
-      </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
@@ -135,40 +68,13 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-100" />
-    <option name="y" value="20" />
-    <option name="width" value="1920" />
-    <option name="height" value="515" />
-  </component>
+  <component name="ProjectId" id="1UraMaBIqceLsEIdat3O59UIP2i" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JavaSE" type="58d84e3e:PackageViewProjectNode" />
-              <item name="JavaSE" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
@@ -176,6 +82,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -211,19 +118,46 @@
       <recent name="D:\workSpace\idea_workspace\JavaSE\src" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.LambdaTest.test">
+  <component name="RunManager" selected="Application.StringTest">
+    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.ArrayListTest" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoPaint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.AutoPaint" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DosCommder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.DosCommder" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ybjt.study05.MainTest" />
       <module name="JavaSE" />
@@ -237,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study10.ProxyTest" />
+    <configuration name="RobotTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.RobotTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.study10.*" />
+          <option name="PATTERN" value="com.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,76 +184,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study10.StaticProxyTest" />
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.StringTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.study10.*" />
+          <option name="PATTERN" value="com.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LambdaTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ybjt.study10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ybjt.study10" />
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study10.LambdaTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReflectTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ybjt.study10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ybjt.study10" />
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study10.ReflectTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReflectTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ybjt.study10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ybjt.study10" />
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study10.ReflectTest" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LambdaTest.test" />
-        <item itemvalue="Application.ProxyTest" />
-        <item itemvalue="Application.StaticProxyTest" />
-        <item itemvalue="JUnit.ReflectTest.test4" />
-        <item itemvalue="JUnit.ReflectTest.test2" />
+        <item itemvalue="Application.StringTest" />
+        <item itemvalue="Application.RobotTest" />
+        <item itemvalue="Application.AutoPaint" />
+        <item itemvalue="Application.DosCommder" />
+        <item itemvalue="Application.ArrayListTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -418,6 +316,22 @@
       <workItem from="1574257169686" duration="1726000" />
       <workItem from="1574298571288" duration="11255000" />
       <workItem from="1574337714155" duration="89000" />
+      <workItem from="1574341852119" duration="634000" />
+      <workItem from="1574387620863" duration="66000" />
+      <workItem from="1574650787946" duration="4924000" />
+      <workItem from="1574662868440" duration="13000" />
+      <workItem from="1574741529114" duration="918000" />
+      <workItem from="1574946042301" duration="1673000" />
+      <workItem from="1575292087900" duration="24000" />
+      <workItem from="1576117122242" duration="2773000" />
+      <workItem from="1576129417268" duration="29000" />
+      <workItem from="1576129462076" duration="579000" />
+      <workItem from="1576142099391" duration="10000" />
+      <workItem from="1578450671748" duration="1093000" />
+      <workItem from="1578451850574" duration="2174000" />
+      <workItem from="1578461873062" duration="1979000" />
+      <workItem from="1578464165888" duration="5398000" />
+      <workItem from="1578531889226" duration="635000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1561689843762</created>
@@ -727,7 +641,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574260160117</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="手撸基础014">
+      <created>1574342417070</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1574342417070</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -762,9 +683,6 @@
       <configuration name="LambdaTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="343315000" />
-  </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -773,75 +691,6 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.3043185" />
-      <window_info id="Structure" order="1" sideWeight="0.5007299" side_tool="true" weight="0.23549257" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49730095" weight="0.41615853" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.58536583" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32846716" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.70884144" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32846716" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026991" side_tool="true" weight="0.28658536" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49932525" weight="0.3246951" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966262" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.3299595" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven" order="8" weight="0.3299595" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3299595" />
-      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="10" side_tool="true" weight="0.3299595" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" weight="0.28947368" />
-      <window_info id="Structure" order="1" sideWeight="0.5007299" side_tool="true" weight="0.23549257" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49730095" visible="true" weight="0.28658536" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.61890244" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32846716" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.70884144" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32846716" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026991" side_tool="true" weight="0.28658536" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49932525" weight="0.3246951" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966262" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.3299595" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven" order="8" weight="0.3299595" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3299595" />
-      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="10" side_tool="true" weight="0.3299595" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -862,20 +711,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -924,6 +760,64 @@
     <MESSAGE value="手撸基础014" />
     <option name="LAST_COMMIT_MESSAGE" value="手撸基础014" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="530" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1576117468975">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="530" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1576117468975" />
+    <state x="449" y="125" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576129434724">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="125" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1576129434724" />
+    <state x="499" y="106" key="FileChooserDialogImpl" timestamp="1576142107650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="106" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576142107650" />
+    <state width="1483" height="248" key="GridCell.Tab.0.bottom" timestamp="1578475818785">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="248" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578475818785" />
+    <state width="1483" height="248" key="GridCell.Tab.0.center" timestamp="1578475818785">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="248" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578475818785" />
+    <state width="1483" height="248" key="GridCell.Tab.0.left" timestamp="1578475818785">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="248" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578475818785" />
+    <state width="1483" height="248" key="GridCell.Tab.0.right" timestamp="1578475818785">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="248" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578475818785" />
+    <state width="1483" height="362" key="GridCell.Tab.1.bottom" timestamp="1578464149480">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="362" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578464149480" />
+    <state width="1483" height="362" key="GridCell.Tab.1.center" timestamp="1578464149480">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="362" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578464149480" />
+    <state width="1483" height="362" key="GridCell.Tab.1.left" timestamp="1578464149480">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="362" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578464149480" />
+    <state width="1483" height="362" key="GridCell.Tab.1.right" timestamp="1578464149480">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="362" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578464149480" />
+    <state x="423" y="91" width="714" height="655" key="StructurePopup" timestamp="1578473142951">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="423" y="91" width="714" height="655" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1578473142951" />
+    <state x="341" y="183" key="run.anything.popup" timestamp="1576119587794">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="183" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1576119587794" />
+    <state x="347" y="0" width="840" height="822" key="search.everywhere.popup" timestamp="1578475514756">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="347" y="0" width="840" height="822" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1578475514756" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -932,457 +826,6 @@
     <SUITE FILE_PATH="coverage/JavaSE$StringBufferTest.ic" NAME="StringBufferTest Coverage Results" MODIFIED="1573649188346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ybjt.study07.*</FILTER>
     </SUITE>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="86" column="17" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/javafx-src.zip!/com/sun/prism/impl/BaseResourcePool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="474" column="34" selection-start-line="474" selection-start-column="34" selection-end-line="474" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study07/StringTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study07/FastJsonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="3214" column="19" selection-start-line="3214" selection-start-column="15" selection-end-line="3214" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="106" column="23" lean-forward="true" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="23" />
-          <folding>
-            <element signature="e#6283#6284#0" expanded="true" />
-            <element signature="e#6351#6352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study05/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="468" selection-start-line="468" selection-end-line="468" />
-          <folding>
-            <element signature="e#19103#19104#0" expanded="true" />
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-            <element signature="e#24329#24330#0" expanded="true" />
-            <element signature="e#24394#24395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/jar/Attributes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#1461#1462#0" expanded="true" />
-            <element signature="e#1684#1685#0" expanded="true" />
-            <element signature="e#1725#1726#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/jar/Manifest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#870#1063#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="194" column="25" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="221" column="40" selection-start-line="221" selection-start-column="31" selection-end-line="221" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/io/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="71" column="41" lean-forward="true" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/io/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="138" column="15" selection-start-line="138" selection-start-column="15" selection-end-line="138" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/io/OutputStreamWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/io/InputStreamReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="94" column="20" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study08/InputStreamReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study08/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-362">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study08/CollectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study08/MapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study08/GenericTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study08/BufferInpuStreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/io/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#7584#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/io/ObjectOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="267" column="68" selection-start-line="267" selection-start-column="68" selection-end-line="267" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study08/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="46" />
-          <folding>
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study08/ObjectStreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-422">
-          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study09/InetAddrssTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/net/Socket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="242" column="11" selection-start-line="242" selection-start-column="11" selection-end-line="242" selection-end-column="11" />
-          <folding>
-            <element signature="e#1829#1830#0" expanded="true" />
-            <element signature="e#1854#1855#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/net/ServerSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study09/TCPTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/net/DatagramSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="194" column="11" selection-start-line="194" selection-start-column="11" selection-end-line="194" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="458" column="11" selection-start-line="458" selection-start-column="11" selection-end-line="458" selection-end-column="11" />
-          <folding>
-            <element signature="e#4677#4678#0" expanded="true" />
-            <element signature="e#4714#4715#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study09/UDPTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/net/DatagramPacket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="118" column="11" selection-start-line="118" selection-start-column="11" selection-end-line="118" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study09/URLTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-782">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/复制.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/古诗.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-45237">
-            <caret line="193" column="9" lean-forward="true" selection-start-line="193" selection-start-column="9" selection-end-line="193" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study10/ReflectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1592">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study10/StaticProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="14" lean-forward="true" selection-end-line="43" selection-end-column="1" />
-          <folding>
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study10/ProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study10/LambdaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1440,7 +883,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

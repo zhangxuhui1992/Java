@@ -9,11 +9,13 @@ import java.io.Serializable;
  * 成员变量即类的属性
  * 局部变量声明在方法内、方法形参、代码块内、构造器形参、构造器内的变量
  */
-public class User implements Serializable {
+public class User implements Serializable,Cloneable {
     private static final long serialVersionUID = -5555401105921349900L;
     private String name;
     private String age;
     private String address;
+
+    private Car myCar;
 
     public User() {
     }
@@ -24,7 +26,6 @@ public class User implements Serializable {
 
     /**
      * 带参的构造器
-     * @param name 名字
      * @param age 年龄
      * @param address 地址
      */
@@ -70,5 +71,12 @@ public class User implements Serializable {
 
     public void song(){
         System.out.println(name+"跪着唱征服！");
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        User clone = (User)super.clone();
+        clone.myCar = (Car) myCar.clone();
+        return clone;
     }
 }
