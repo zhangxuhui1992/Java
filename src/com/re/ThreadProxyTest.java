@@ -6,12 +6,13 @@ package com.re;
  */
 public class ThreadProxyTest {
     public static void main(String[] args) {
-        System.out.println(Thread.currentThread().getName()+"\t"+Thread.currentThread().getPriority());
+        //System.out.println(Thread.currentThread().getName()+"\t"+Thread.currentThread().getPriority());
 
-        System.out.println(Thread.currentThread().getState());
-        System.out.println(Thread.activeCount());
+        //System.out.println(Thread.currentThread().getState());
+        //System.out.println(Thread.activeCount());
 
-
+        MyWife wife = new MyWife();
+        wife.toMarryed();
 
     }
 }

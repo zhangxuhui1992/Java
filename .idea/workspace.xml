@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/re/AnnotionaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/re/DClSigentor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/re/MyThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/re/SynTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/re/TestMySends.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/re/ThreadProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/re/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/re/MyWife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/re/ReflectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/re/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ybjt/test/JavaAccessTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/javase/Study01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/javase/Study02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/javase/staticproxy/DengChao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/javase/staticproxy/DengChaoProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/javase/staticproxy/StaticProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/javase/staticproxy/star.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/re/MainTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/re/MainTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/re/ThreadProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/re/ThreadProxyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +54,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,11 +77,24 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/re/MainTest2.java" />
         <option value="$PROJECT_DIR$/src/com/re/MyThreadTest.java" />
-        <option value="$PROJECT_DIR$/src/com/re/ThreadProxyTest.java" />
         <option value="$PROJECT_DIR$/src/com/re/TestMySends.java" />
         <option value="$PROJECT_DIR$/src/com/re/SynTest.java" />
         <option value="$PROJECT_DIR$/src/com/re/DClSigentor.java" />
         <option value="$PROJECT_DIR$/src/com/re/AnnotionaTest.java" />
+        <option value="$PROJECT_DIR$/src/com/re/User.java" />
+        <option value="$PROJECT_DIR$/src/com/re/ReflectTest.java" />
+        <option value="$PROJECT_DIR$/src/com/re/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/test/Study01.java" />
+        <option value="$PROJECT_DIR$/src/test/javase/Study01.java" />
+        <option value="$PROJECT_DIR$/src/test/javase/Study02.java" />
+        <option value="$PROJECT_DIR$/src/test/javase/StaticProxyTest.java" />
+        <option value="$PROJECT_DIR$/src/test/javase/staticproxy/star.java" />
+        <option value="$PROJECT_DIR$/src/test/javase/staticproxy/DengChao.java" />
+        <option value="$PROJECT_DIR$/src/test/javase/staticproxy/DengChaoProxy.java" />
+        <option value="$PROJECT_DIR$/src/test/javase/staticproxy/StaticProxyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/re/ThreadProxyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ybjt/test/JavaAccessTest.java" />
+        <option value="$PROJECT_DIR$/src/com/re/MyWife.java" />
       </list>
     </option>
   </component>
@@ -110,8 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,6 +138,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -145,12 +162,18 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -183,7 +206,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestDCL">
+  <component name="RunManager" selected="Application.JavaAccessTest">
+    <configuration name="DosCommder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.DosCommder" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaAccessTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.test.JavaAccessTest" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ybjt.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ybjt.study05.MainTest" />
       <module name="JavaSE" />
@@ -197,12 +246,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.re.MyThreadTest" />
+    <configuration name="RobotTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.RobotTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.re.*" />
+          <option name="PATTERN" value="com.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,12 +259,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.re.SynTest" />
+    <configuration name="StaticProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.javase.staticproxy.StaticProxyTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.re.*" />
+          <option name="PATTERN" value="test.javase.staticproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,38 +272,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDCL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.re.TestDCL" />
+    <configuration name="Study02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.javase.Study02" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.re.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMySends" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.re.TestMySends" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.re.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.re.ThreadProxyTest" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.re.*" />
+          <option name="PATTERN" value="test.javase.staticproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestDCL" />
-        <item itemvalue="Application.SynTest" />
-        <item itemvalue="Application.TestMySends" />
-        <item itemvalue="Application.ThreadProxyTest" />
-        <item itemvalue="Application.MyThreadTest" />
+        <item itemvalue="Application.JavaAccessTest" />
+        <item itemvalue="Application.RobotTest" />
+        <item itemvalue="Application.DosCommder" />
+        <item itemvalue="Application.StaticProxyTest" />
+        <item itemvalue="Application.Study02" />
       </list>
     </recent_temporary>
   </component>
@@ -431,6 +454,13 @@
       <workItem from="1581749368207" duration="463000" />
       <workItem from="1581749851043" duration="4228000" />
       <workItem from="1581819933383" duration="6221000" />
+      <workItem from="1581915026597" duration="1954000" />
+      <workItem from="1581937294962" duration="831000" />
+      <workItem from="1582361806977" duration="5140000" />
+      <workItem from="1582425094213" duration="3772000" />
+      <workItem from="1582527791952" duration="582000" />
+      <workItem from="1583226528825" duration="3862000" />
+      <workItem from="1583822799056" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1561689843762</created>
@@ -761,7 +791,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581657629316</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="手撸基础017">
+      <created>1581915108051</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1581915108052</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -797,7 +834,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13585000" />
+    <option name="totallyTimeSpent" value="29758000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -811,8 +848,8 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7056338" visible="true" weight="0.24364123" />
-      <window_info id="Structure" order="1" sideWeight="0.2943662" side_tool="true" visible="true" weight="0.24364123" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7002096" visible="true" weight="0.26706827" />
+      <window_info id="Structure" order="1" sideWeight="0.29979035" side_tool="true" weight="0.2536814" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -820,7 +857,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32816902" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33239436" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -891,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="开始读书学习的第一天，javase基础go go go !" />
     <MESSAGE value="学习至函数、数组" />
     <MESSAGE value="readme修改" />
     <MESSAGE value="数组的应用" />
@@ -916,89 +952,50 @@
     <MESSAGE value="手撸基础014" />
     <MESSAGE value="手撸基础015" />
     <MESSAGE value="手撸基础016" />
-    <option name="LAST_COMMIT_MESSAGE" value="手撸基础016" />
+    <MESSAGE value="手撸基础017" />
+    <option name="LAST_COMMIT_MESSAGE" value="手撸基础017" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="530" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1581580462231">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="530" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581580462231" />
-    <state x="449" y="125" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576129434724">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="449" y="125" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1576129434724" />
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1578533192086">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578533192086" />
-    <state x="499" y="106" key="FileChooserDialogImpl" timestamp="1581578148034">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="106" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581578148034" />
-    <state width="1468" height="244" key="GridCell.Tab.0.bottom" timestamp="1581583017073">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1468" height="244" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581583017073" />
-    <state width="1468" height="244" key="GridCell.Tab.0.center" timestamp="1581583017072">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1468" height="244" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581583017072" />
-    <state width="1468" height="244" key="GridCell.Tab.0.left" timestamp="1581583017072">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1468" height="244" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581583017072" />
-    <state width="1468" height="244" key="GridCell.Tab.0.right" timestamp="1581583017073">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1468" height="244" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581583017073" />
-    <state width="1483" height="362" key="GridCell.Tab.1.bottom" timestamp="1581493807430">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1483" height="362" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581493807430" />
-    <state width="1483" height="362" key="GridCell.Tab.1.center" timestamp="1581493807430">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1483" height="362" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581493807430" />
-    <state width="1483" height="362" key="GridCell.Tab.1.left" timestamp="1581493807430">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1483" height="362" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581493807430" />
-    <state width="1483" height="362" key="GridCell.Tab.1.right" timestamp="1581493807430">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1483" height="362" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581493807430" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1581578155185">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581578155185" />
-    <state x="423" y="91" width="714" height="655" key="StructurePopup" timestamp="1578473142951">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="423" y="91" width="714" height="655" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1578473142951" />
-    <state x="261" y="76" key="Vcs.Push.Dialog.v2" timestamp="1578533197404">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="261" y="76" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578533197404" />
-    <state x="386" y="90" width="764" height="644" key="find.popup" timestamp="1581292779935">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="386" y="90" width="764" height="644" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1581292779935" />
-    <state x="0" y="85" width="1536" height="703" key="new project wizard" timestamp="1578986421120">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="0" y="85" width="1536" height="703" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1578986421120" />
-    <state x="321" y="0" width="915" height="822" key="recent.locations.popup" timestamp="1581505315459">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="321" y="0" width="915" height="822" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1581505315459" />
-    <state x="341" y="183" key="run.anything.popup" timestamp="1576119587794">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="341" y="183" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1576119587794" />
-    <state x="347" y="0" width="840" height="822" key="search.everywhere.popup" timestamp="1581577526770">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="347" y="0" width="840" height="822" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581577526770" />
+    <state x="530" y="50" key="#com.intellij.ide.util.MemberChooser" />
+    <state x="530" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" />
+    <state x="449" y="125" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" />
+    <state x="449" y="125" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" />
+    <state x="303" y="0" key="CommitChangelistDialog2" />
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" />
+    <state x="499" y="106" key="FileChooserDialogImpl" />
+    <state x="499" y="106" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" />
+    <state width="1468" height="244" key="GridCell.Tab.0.bottom" />
+    <state width="1468" height="244" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" />
+    <state width="1468" height="244" key="GridCell.Tab.0.center" />
+    <state width="1468" height="244" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" />
+    <state width="1468" height="244" key="GridCell.Tab.0.left" />
+    <state width="1468" height="244" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" />
+    <state width="1468" height="244" key="GridCell.Tab.0.right" />
+    <state width="1468" height="244" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" />
+    <state width="1483" height="362" key="GridCell.Tab.1.bottom" />
+    <state width="1483" height="362" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" />
+    <state width="1483" height="362" key="GridCell.Tab.1.center" />
+    <state width="1483" height="362" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" />
+    <state width="1483" height="362" key="GridCell.Tab.1.left" />
+    <state width="1483" height="362" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" />
+    <state width="1483" height="362" key="GridCell.Tab.1.right" />
+    <state width="1483" height="362" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" />
+    <state x="121" y="0" key="SettingsEditor" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" />
+    <state x="423" y="91" width="714" height="655" key="StructurePopup" />
+    <state x="423" y="91" width="714" height="655" key="StructurePopup/0.0.1536.824@0.0.1536.824" />
+    <state x="261" y="76" key="Vcs.Push.Dialog.v2" />
+    <state x="261" y="76" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" />
+    <state x="386" y="90" width="764" height="644" key="find.popup" />
+    <state x="386" y="90" width="764" height="644" key="find.popup/0.0.1536.824@0.0.1536.824" />
+    <state x="0" y="85" width="1536" height="703" key="new project wizard" />
+    <state x="0" y="85" width="1536" height="703" key="new project wizard/0.0.1536.824@0.0.1536.824" />
+    <state x="321" y="0" width="915" height="822" key="recent.locations.popup" />
+    <state x="321" y="0" width="915" height="822" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" />
+    <state x="341" y="183" key="run.anything.popup" />
+    <state x="341" y="183" key="run.anything.popup/0.0.1536.824@0.0.1536.824" />
+    <state x="347" y="0" width="840" height="822" key="search.everywhere.popup" />
+    <state x="347" y="0" width="840" height="822" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1010,27 +1007,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/re/CollectionLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/re/MainTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/re/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -1039,13 +1015,6 @@
             <element signature="e#45139#45140#0" expanded="true" />
             <element signature="e#45208#45209#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/re/ThreadProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1060,13 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/re/SynTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1102,14 +1064,237 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/re/ReflectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/re/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/re/AnnotionaTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/re/CollectionLearn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/re/ImagesSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/threadlearn/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/threadlearn/SanYuanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/threadlearn/IThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/threadlearn/DowLoadImagFormWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/javase/Inds.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/javase/staticproxy/Start.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/javase/Study02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/javase/staticproxy/DengChaoProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/javase/staticproxy/DengChao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/javase/staticproxy/star.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/study06/StaticProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/javase/staticproxy/StaticProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/javase/Study01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/re/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/DosCommder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="19" column="76" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/RobotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/re/SynTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/re/MyWife.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/re/Study.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/re/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/re/fly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/re/MainTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/re/Outer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/re/ThreadProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ybjt/test/JavaAccessTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
