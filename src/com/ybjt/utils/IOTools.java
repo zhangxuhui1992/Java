@@ -8,6 +8,8 @@ import java.io.File;
  */
 public class IOTools {
     public static void main(String[] args) {
+
+
         long start = System.currentTimeMillis();
         boolean bool = IOTools.deleteFile("E:\\迅雷下载\\阳光电影www.ygdy8.com.神盾局特工第六季第05集[中英双字].mkv");
         long end = System.currentTimeMillis();

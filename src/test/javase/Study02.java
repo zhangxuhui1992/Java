@@ -7,7 +7,7 @@ package test.javase;
  */
 public class Study02 {
     public static void main(String[] args) {
-        int [] arr = new int[10];
+        /*int [] arr = new int[10];
 
         String [] strs = {"中国","北京","西安"};
 
@@ -21,6 +21,10 @@ public class Study02 {
 
         for(int num : arr){
             System.out.println(num);
-        }
+        }*/
+
+        String str = "[-0.05462948161606305,3080.678981104843,0.0]";
+        String[] split = str.split(",");
+        String result = "deltaV:"+split[0].substring(1, split[0].length())+","+split[1]+","+split[2].substring(0, split[2].length()-1);
     }
 }
