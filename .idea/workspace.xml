@@ -4,23 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="手撸基础021">
-      <change afterPath="$PROJECT_DIR$/src/jvm/MyObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/javaee/lamda/LamdaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/javaee/lamda/LamdaTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/javaee/lamda/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/javaee/lamda/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/javaee/lamda/MyLamdaThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/javaee/stream/CreatStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/javaee/stream/StreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/javaee/stream/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/javaee/stream/stream.text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/javase/string/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/javase/string/mySong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/javase/string/song.java" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/javaee/collection/CollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/javaee/functionInterface/FunctionInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ybjt/utils/IOTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ybjt/utils/IOTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/javase/Study02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/javase/Study02.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,39 +44,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/javaee/stream/StreamTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1887">
-              <caret line="104" column="11" lean-forward="true" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/javaee/stream/Students.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-              <folding>
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,6 +56,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Collection</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
@@ -110,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/re/MainTest2.java" />
         <option value="$PROJECT_DIR$/src/com/re/MyThreadTest.java" />
         <option value="$PROJECT_DIR$/src/com/re/TestMySends.java" />
         <option value="$PROJECT_DIR$/src/com/re/SynTest.java" />
@@ -160,6 +119,8 @@
         <option value="$PROJECT_DIR$/src/com/ybjt/study08/Stream.java" />
         <option value="$PROJECT_DIR$/src/test/javaee/stream/Students.java" />
         <option value="$PROJECT_DIR$/src/test/javaee/stream/StreamTest.java" />
+        <option value="$PROJECT_DIR$/src/test/javaee/functionInterface/FunctionInterface.java" />
+        <option value="$PROJECT_DIR$/src/test/javaee/collection/CollectionTest.java" />
       </list>
     </option>
   </component>
@@ -192,43 +153,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="javaee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="javaee" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -591,14 +516,7 @@
       <workItem from="1590973244292" duration="40000" />
       <workItem from="1591087482312" duration="3519000" />
       <workItem from="1591146584174" duration="982000" />
-      <workItem from="1591149169638" duration="7058000" />
-    </task>
-    <task id="LOCAL-00004" summary="four commit">
-      <created>1561690709071</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1561690709071</updated>
+      <workItem from="1591149169638" duration="12490000" />
     </task>
     <task id="LOCAL-00005" summary="five commit">
       <created>1561690926334</created>
@@ -936,7 +854,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585836152472</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="手撸基础022">
+      <created>1591156416671</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1591156416671</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -972,7 +897,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79648000" />
+    <option name="totallyTimeSpent" value="85080000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1101,7 +1026,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="面向对象" />
     <MESSAGE value="抽象、接口" />
     <MESSAGE value="异常学习" />
     <MESSAGE value="多线程" />
@@ -1126,7 +1050,8 @@
     <MESSAGE value="手撸基础019" />
     <MESSAGE value="手撸基础020" />
     <MESSAGE value="手撸基础021" />
-    <option name="LAST_COMMIT_MESSAGE" value="手撸基础021" />
+    <MESSAGE value="手撸基础022" />
+    <option name="LAST_COMMIT_MESSAGE" value="手撸基础022" />
   </component>
   <component name="WindowStateProjectService">
     <state x="530" y="50" key="#com.intellij.ide.util.MemberChooser" />
@@ -1180,64 +1105,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/javase/reflect/myReflect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="473">
-            <caret line="4321" column="19" selection-start-line="4321" selection-start-column="19" selection-end-line="4321" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/javase/string/song.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/javase/string/mySong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding>
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/lang/StringBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1604">
-          <caret line="161" column="23" selection-start-line="161" selection-start-column="11" selection-end-line="161" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/javase/string/StringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1495,13 +1362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -1594,11 +1454,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/javaee/stream/StreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="104" column="11" lean-forward="true" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
+        <state relative-caret-position="1320">
+          <caret line="108" column="23" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137">
+          <caret line="73" column="7" lean-forward="true" selection-start-line="73" selection-start-column="7" selection-end-line="75" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="138" column="18" lean-forward="true" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="110" column="39" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12476">
+          <caret line="136" column="3" lean-forward="true" selection-start-line="136" selection-start-column="3" selection-end-line="136" selection-end-column="3" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/javaee/collection/CollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="100" column="26" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SystemForJava/java_1.8/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="165" column="35" selection-start-line="165" selection-start-column="35" selection-end-line="165" selection-end-column="35" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/javaee/functionInterface/FunctionInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
