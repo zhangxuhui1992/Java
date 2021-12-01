@@ -4,9 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="study">
-      <change afterPath="$PROJECT_DIR$/src/newStudy/s01/note.txt" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/newStudy/s01/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s01/note.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -537,14 +537,7 @@
       <workItem from="1591322403317" duration="356000" />
       <workItem from="1638356871123" duration="457000" />
       <workItem from="1638357365860" duration="225000" />
-      <workItem from="1638358152047" duration="599000" />
-    </task>
-    <task id="LOCAL-00007" summary="7 commit">
-      <created>1561949776744</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1561949776744</updated>
+      <workItem from="1638358152047" duration="2373000" />
     </task>
     <task id="LOCAL-00008" summary="8 commit">
       <created>1561951380816</created>
@@ -882,7 +875,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638357564170</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="java 再学习01">
+      <created>1638358936779</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1638358936780</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1040,7 +1040,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="多线程" />
     <MESSAGE value="手撸基础01" />
     <MESSAGE value="手撸基础02" />
     <MESSAGE value="手撸基础03" />
@@ -1065,7 +1064,8 @@
     <MESSAGE value="手撸基础022" />
     <MESSAGE value="手撸基础023" />
     <MESSAGE value="study" />
-    <option name="LAST_COMMIT_MESSAGE" value="study" />
+    <MESSAGE value="java 再学习01" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 再学习01" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
