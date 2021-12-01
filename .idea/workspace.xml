@@ -4,12 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/threadlearn/MyThreadTest.java" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="手撸基础023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/com/ybjt/test/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/com/ybjt/test/test.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,19 +39,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/jvm/MyObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -133,6 +118,9 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -194,7 +182,6 @@
     </panes>
   </component>
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -203,6 +190,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -224,7 +212,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -245,25 +233,13 @@
       <recent name="D:\workSpace\idea_workspace\JavaSE" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Application.MyObject">
-    <configuration name="CreatStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.javaee.stream.CreatStream" />
+    <configuration name="MainTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.study05.MainTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.javaee.stream.*" />
+          <option name="PATTERN" value="com.ybjt.study05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.study05.MainTest" />
+    <configuration name="MainTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.re.MainTest2" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.study05.*" />
+          <option name="PATTERN" value="com.re.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,19 +314,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.CreatStream" />
       <item itemvalue="Application.StreamTest" />
       <item itemvalue="Application.TestDo" />
       <item itemvalue="Application.MyThreadTest" />
       <item itemvalue="Application.MyObject" />
+      <item itemvalue="Application.MainTest2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MyObject" />
+        <item itemvalue="Application.MainTest2" />
         <item itemvalue="Application.MyThreadTest" />
         <item itemvalue="Application.TestDo" />
         <item itemvalue="Application.StreamTest" />
-        <item itemvalue="Application.CreatStream" />
       </list>
     </recent_temporary>
   </component>
@@ -366,6 +342,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
   </component>
@@ -558,6 +535,8 @@
       <workItem from="1591235203441" duration="151000" />
       <workItem from="1591273946309" duration="39000" />
       <workItem from="1591322403317" duration="356000" />
+      <workItem from="1638356871123" duration="457000" />
+      <workItem from="1638357365860" duration="111000" />
     </task>
     <task id="LOCAL-00006" summary="six commit">
       <created>1561944987956</created>
@@ -1022,7 +1001,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -1039,15 +1018,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -1094,48 +1065,6 @@
     <MESSAGE value="手撸基础022" />
     <MESSAGE value="手撸基础023" />
     <option name="LAST_COMMIT_MESSAGE" value="手撸基础023" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="530" y="50" key="#com.intellij.ide.util.MemberChooser" />
-    <state x="530" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" />
-    <state x="449" y="125" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" />
-    <state x="449" y="125" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" />
-    <state x="303" y="0" key="CommitChangelistDialog2" />
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" />
-    <state x="499" y="106" key="FileChooserDialogImpl" />
-    <state x="499" y="106" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" />
-    <state width="1468" height="244" key="GridCell.Tab.0.bottom" />
-    <state width="1468" height="244" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" />
-    <state width="1468" height="244" key="GridCell.Tab.0.center" />
-    <state width="1468" height="244" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" />
-    <state width="1468" height="244" key="GridCell.Tab.0.left" />
-    <state width="1468" height="244" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" />
-    <state width="1468" height="244" key="GridCell.Tab.0.right" />
-    <state width="1468" height="244" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" />
-    <state width="1483" height="362" key="GridCell.Tab.1.bottom" />
-    <state width="1483" height="362" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" />
-    <state width="1483" height="362" key="GridCell.Tab.1.center" />
-    <state width="1483" height="362" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" />
-    <state width="1483" height="362" key="GridCell.Tab.1.left" />
-    <state width="1483" height="362" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" />
-    <state width="1483" height="362" key="GridCell.Tab.1.right" />
-    <state width="1483" height="362" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" />
-    <state x="121" y="0" key="SettingsEditor" />
-    <state x="121" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" />
-    <state x="423" y="91" width="714" height="655" key="StructurePopup" />
-    <state x="423" y="91" width="714" height="655" key="StructurePopup/0.0.1536.824@0.0.1536.824" />
-    <state x="261" y="76" key="Vcs.Push.Dialog.v2" />
-    <state x="261" y="76" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" />
-    <state x="386" y="90" width="764" height="644" key="find.popup" />
-    <state x="386" y="90" width="764" height="644" key="find.popup/0.0.1536.824@0.0.1536.824" />
-    <state x="0" y="85" width="1536" height="703" key="new project wizard" />
-    <state x="0" y="85" width="1536" height="703" key="new project wizard/0.0.1536.824@0.0.1536.824" />
-    <state x="321" y="0" width="915" height="822" key="recent.locations.popup" />
-    <state x="321" y="0" width="915" height="822" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" />
-    <state x="341" y="183" key="run.anything.popup" />
-    <state x="341" y="183" key="run.anything.popup/0.0.1536.824@0.0.1536.824" />
-    <state x="347" y="0" width="840" height="822" key="search.everywhere.popup" />
-    <state x="347" y="0" width="840" height="822" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
