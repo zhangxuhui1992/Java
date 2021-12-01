@@ -4,9 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="手撸基础023">
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="study">
+      <change afterPath="$PROJECT_DIR$/src/newStudy/s01/note.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/com/ybjt/test/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/com/ybjt/test/test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +212,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -233,7 +233,7 @@
       <recent name="D:\workSpace\idea_workspace\JavaSE" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyObject">
+  <component name="RunManager" selected="Application.Study01">
     <configuration name="MainTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ybjt.study05.MainTest" />
       <module name="JavaSE" />
@@ -253,6 +253,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.re.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaoPaoPaiXu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.javase.array.MaoPaoPaiXu" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.javase.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,25 +299,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.javaee.stream.StreamTest" />
+    <configuration name="Study01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newStudy.s01.Study01" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.javaee.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.threadlearn.TestDo" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.threadlearn.*" />
+          <option name="PATTERN" value="newStudy.s01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,19 +314,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.StreamTest" />
-      <item itemvalue="Application.TestDo" />
       <item itemvalue="Application.MyThreadTest" />
       <item itemvalue="Application.MyObject" />
       <item itemvalue="Application.MainTest2" />
+      <item itemvalue="Application.MaoPaoPaiXu" />
+      <item itemvalue="Application.Study01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Study01" />
+        <item itemvalue="Application.MaoPaoPaiXu" />
         <item itemvalue="Application.MyObject" />
         <item itemvalue="Application.MainTest2" />
         <item itemvalue="Application.MyThreadTest" />
-        <item itemvalue="Application.TestDo" />
-        <item itemvalue="Application.StreamTest" />
       </list>
     </recent_temporary>
   </component>
@@ -536,14 +536,8 @@
       <workItem from="1591273946309" duration="39000" />
       <workItem from="1591322403317" duration="356000" />
       <workItem from="1638356871123" duration="457000" />
-      <workItem from="1638357365860" duration="111000" />
-    </task>
-    <task id="LOCAL-00006" summary="six commit">
-      <created>1561944987956</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1561944987956</updated>
+      <workItem from="1638357365860" duration="225000" />
+      <workItem from="1638358152047" duration="599000" />
     </task>
     <task id="LOCAL-00007" summary="7 commit">
       <created>1561949776744</created>
@@ -881,7 +875,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591177120863</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="study">
+      <created>1638357564170</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1638357564170</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1039,7 +1040,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="异常学习" />
     <MESSAGE value="多线程" />
     <MESSAGE value="手撸基础01" />
     <MESSAGE value="手撸基础02" />
@@ -1064,7 +1064,8 @@
     <MESSAGE value="手撸基础021" />
     <MESSAGE value="手撸基础022" />
     <MESSAGE value="手撸基础023" />
-    <option name="LAST_COMMIT_MESSAGE" value="手撸基础023" />
+    <MESSAGE value="study" />
+    <option name="LAST_COMMIT_MESSAGE" value="study" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
