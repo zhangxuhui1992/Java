@@ -23,6 +23,18 @@ public class Study02 {
 
         System.out.println(Integer.toHexString(123));//十进制转十六进制
 
+        //变量
+        int a = 7;
+        byte b = 3;
+
+        int sum  = a + b;//自动类型转换
+
+        int count = (int)3.2;
+        System.out.println("count="+count);//强制类型转换 ：3
+
+        long s = 12345678900L;
+        float f = 3.2F;
+        System.out.println(a);
 
     }
 }

@@ -4,10 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习01">
-      <change afterPath="$PROJECT_DIR$/src/newStudy/s02/Study02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/newStudy/s02/note.txt" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习02 二进制转十进制">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/newStudy/s02/Study02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s02/Study02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/newStudy/s02/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s02/note.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,14 @@
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -539,14 +547,7 @@
       <workItem from="1638356871123" duration="457000" />
       <workItem from="1638357365860" duration="225000" />
       <workItem from="1638358152047" duration="2862000" />
-      <workItem from="1638442647873" duration="2797000" />
-    </task>
-    <task id="LOCAL-00011" summary="实体类的添加">
-      <created>1563954847530</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1563954847530</updated>
+      <workItem from="1638442647873" duration="4338000" />
     </task>
     <task id="LOCAL-00012" summary="测试集合、fastjson">
       <created>1563959066173</created>
@@ -884,7 +885,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638443686080</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="java 再学习02 二进制转十进制">
+      <created>1638448688137</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1638448688137</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1042,7 +1050,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="手撸基础01" />
     <MESSAGE value="手撸基础02" />
     <MESSAGE value="手撸基础03" />
     <MESSAGE value="手撸基础04" />
@@ -1067,7 +1074,8 @@
     <MESSAGE value="手撸基础023" />
     <MESSAGE value="study" />
     <MESSAGE value="java 再学习01" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 再学习01" />
+    <MESSAGE value="java 再学习02 二进制转十进制" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 再学习02 二进制转十进制" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
