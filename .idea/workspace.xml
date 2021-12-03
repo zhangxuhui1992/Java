@@ -220,7 +220,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -548,14 +548,8 @@
       <workItem from="1638358152047" duration="2862000" />
       <workItem from="1638442647873" duration="4845000" />
       <workItem from="1638453977821" duration="23000" />
-      <workItem from="1638534137077" duration="3737000" />
-    </task>
-    <task id="LOCAL-00015" summary="数组的学习">
-      <created>1564149293850</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1564149293850</updated>
+      <workItem from="1638534137077" duration="3812000" />
+      <workItem from="1638573634240" duration="1175000" />
     </task>
     <task id="LOCAL-00016" summary="删除单个文件">
       <created>1564562491939</created>
@@ -893,7 +887,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638539422425</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="java 再学习03 位运算">
+      <created>1638539873604</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1638539873605</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TestHistory">

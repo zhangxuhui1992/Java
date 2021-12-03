@@ -1,5 +1,6 @@
 package newStudy.s03;
 
+
 /**
  * @Author zhangxuhui
  * @Date 2021/12/3
@@ -36,6 +37,19 @@ public class Study03 {
 
 //        System.out.println(~(11111111111111111111111111111110f -1));
 //        System.out.println(~(11111111111111111111111111111110f -1));
+        System.out.println("*******************");
+        String str = "我爱中国";
+        byte[] bytes = str.getBytes();
+        for(byte by : bytes){
+            System.out.println(by);
+        }
+        byte b1 = bytes[0];
+        byte b2 = bytes[1];
+        byte b3 = bytes[2];
+        System.out.println("*******************");
+        String s = new String(new byte[]{b1, b2, b3});
+        System.out.println(s);
+
 
     }
 
