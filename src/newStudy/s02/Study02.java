@@ -36,5 +36,6 @@ public class Study02 {
         float f = 3.2F;
         System.out.println(a);
 
+        System.out.println((char) 97);
     }
 }
