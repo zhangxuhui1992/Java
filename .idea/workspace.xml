@@ -4,12 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习02 类型转换">
-      <change afterPath="$PROJECT_DIR$/src/newStudy/s03/Study03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/newStudy/s03/note.txt" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习03 运算符">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newStudy/s02/Study02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s02/Study02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newStudy/s02/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s02/note.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/newStudy/s03/Study03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s03/Study03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/newStudy/s03/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s03/note.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,8 +224,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.ybjt.study07" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workSpace\idea_workspace\JavaSE\src\lib" />
+      <recent name="D:\workSpace\idea_workspace\JavaSE" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workSpace\idea_workspace\JavaSE" />
@@ -236,12 +235,11 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ybjt.study07" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ybjt.study02" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workSpace\idea_workspace\JavaSE\src\lib" />
-      <recent name="D:\workSpace\idea_workspace\JavaSE" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Study03">
@@ -551,14 +549,7 @@
       <workItem from="1638358152047" duration="2862000" />
       <workItem from="1638442647873" duration="4845000" />
       <workItem from="1638453977821" duration="23000" />
-      <workItem from="1638534137077" duration="793000" />
-    </task>
-    <task id="LOCAL-00013" summary="测试集合、fastjson2">
-      <created>1563961386969</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1563961386969</updated>
+      <workItem from="1638534137077" duration="3118000" />
     </task>
     <task id="LOCAL-00014" summary="zhishu">
       <created>1563977435854</created>
@@ -896,7 +887,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638452316011</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="java 再学习03 运算符">
+      <created>1638535119748</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1638535119749</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1054,7 +1052,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="手撸基础03" />
     <MESSAGE value="手撸基础04" />
     <MESSAGE value="手撸基础05" />
     <MESSAGE value="手撸基础06" />
@@ -1079,7 +1076,8 @@
     <MESSAGE value="java 再学习01" />
     <MESSAGE value="java 再学习02 二进制转十进制" />
     <MESSAGE value="java 再学习02 类型转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 再学习02 类型转换" />
+    <MESSAGE value="java 再学习03 运算符" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 再学习03 运算符" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
