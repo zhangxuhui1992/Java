@@ -4,9 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习03 位运算">
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习03 byte数组">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/newStudy/s03/Study03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s03/Study03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/javase/string/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/javase/string/StringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,12 +256,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaoPaoPaiXu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.javase.array.MaoPaoPaiXu" />
+    <configuration name="RobotTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.RobotTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.javase.array.*" />
+          <option name="PATTERN" value="com.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,12 +269,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.MyObject" />
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.javase.string.StringTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.*" />
+          <option name="PATTERN" value="test.javase.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,19 +323,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.MyObject" />
-      <item itemvalue="Application.MaoPaoPaiXu" />
       <item itemvalue="Application.Study01" />
       <item itemvalue="Application.Study02" />
       <item itemvalue="Application.Study03" />
+      <item itemvalue="Application.RobotTest" />
+      <item itemvalue="Application.StringTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Study03" />
+        <item itemvalue="Application.StringTest" />
+        <item itemvalue="Application.RobotTest" />
         <item itemvalue="Application.Study02" />
         <item itemvalue="Application.Study01" />
-        <item itemvalue="Application.MaoPaoPaiXu" />
-        <item itemvalue="Application.MyObject" />
       </list>
     </recent_temporary>
   </component>
@@ -549,14 +550,8 @@
       <workItem from="1638442647873" duration="4845000" />
       <workItem from="1638453977821" duration="23000" />
       <workItem from="1638534137077" duration="3812000" />
-      <workItem from="1638573634240" duration="1175000" />
-    </task>
-    <task id="LOCAL-00016" summary="删除单个文件">
-      <created>1564562491939</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1564562491939</updated>
+      <workItem from="1638573634240" duration="1374000" />
+      <workItem from="1638575346255" duration="1790000" />
     </task>
     <task id="LOCAL-00017" summary="删除单个文件">
       <created>1564562578611</created>
@@ -894,7 +889,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638539873605</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="java 再学习03 byte数组">
+      <created>1638574871564</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1638574871564</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1052,7 +1054,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="手撸基础05" />
     <MESSAGE value="手撸基础06" />
     <MESSAGE value="手撸基础07" />
     <MESSAGE value="手撸基础08" />
@@ -1077,7 +1078,8 @@
     <MESSAGE value="java 再学习02 类型转换" />
     <MESSAGE value="java 再学习03 运算符" />
     <MESSAGE value="java 再学习03 位运算" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 再学习03 位运算" />
+    <MESSAGE value="java 再学习03 byte数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 再学习03 byte数组" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

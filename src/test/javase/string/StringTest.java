@@ -1,5 +1,7 @@
 package test.javase.string;
 
+import java.util.Arrays;
+
 /**
  * @author zhangxuhui
  * @email zxh_1633@163.com
@@ -17,11 +19,16 @@ public class StringTest {
          */
         String s1 = "Hello";
         String s2 = "Hello";
+        char[] chars = s1.toCharArray();
+        int e = Arrays.binarySearch(chars, 'f');
+        System.out.println("e="+e);
+
         System.out.println(s1 == s2);//true
 
         song s3 = new mySong();
         s3.dance();
         s3.say();
+//        Arrays.binarySearch()
 
         StringBuffer sb = new StringBuffer();//线程安全的。效率较低。
 
