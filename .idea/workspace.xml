@@ -4,10 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习03 byte数组">
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习03 算法">
+      <change afterPath="$PROJECT_DIR$/src/newStudy/s03/BinaryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/newStudy/s03/Study03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s03/Study03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/javase/string/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/javase/string/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/newStudy/s03/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s03/note.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,6 +158,7 @@
   </component>
   <component name="ProjectId" id="1UraMaBIqceLsEIdat3O59UIP2i" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -242,65 +244,13 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Study03">
+  <component name="RunManager" selected="JUnit.BinaryTest.test05">
     <configuration name="MainTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ybjt.study05.MainTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ybjt.study05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RobotTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.RobotTest" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.javase.string.StringTest" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.javase.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Study01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newStudy.s01.Study01" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="newStudy.s01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Study02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newStudy.s02.Study02" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="newStudy.s02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,21 +271,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BinaryTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="newStudy.s03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="newStudy.s03" />
+      <option name="MAIN_CLASS_NAME" value="newStudy.s03.BinaryTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="newStudy.s03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="newStudy.s03" />
+      <option name="MAIN_CLASS_NAME" value="newStudy.s03.BinaryTest" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="newStudy.s03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="newStudy.s03" />
+      <option name="MAIN_CLASS_NAME" value="newStudy.s03.BinaryTest" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTest.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="newStudy.s03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="newStudy.s03" />
+      <option name="MAIN_CLASS_NAME" value="newStudy.s03.BinaryTest" />
+      <option name="METHOD_NAME" value="test05" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.Study01" />
-      <item itemvalue="Application.Study02" />
       <item itemvalue="Application.Study03" />
-      <item itemvalue="Application.RobotTest" />
-      <item itemvalue="Application.StringTest" />
+      <item itemvalue="JUnit.BinaryTest.test01" />
+      <item itemvalue="JUnit.BinaryTest.test02" />
+      <item itemvalue="JUnit.BinaryTest.test03" />
+      <item itemvalue="JUnit.BinaryTest.test05" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinaryTest.test05" />
         <item itemvalue="Application.Study03" />
-        <item itemvalue="Application.StringTest" />
-        <item itemvalue="Application.RobotTest" />
-        <item itemvalue="Application.Study02" />
-        <item itemvalue="Application.Study01" />
+        <item itemvalue="JUnit.BinaryTest.test03" />
+        <item itemvalue="JUnit.BinaryTest.test02" />
+        <item itemvalue="JUnit.BinaryTest.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -552,13 +566,8 @@
       <workItem from="1638534137077" duration="3812000" />
       <workItem from="1638573634240" duration="1374000" />
       <workItem from="1638575346255" duration="1790000" />
-    </task>
-    <task id="LOCAL-00017" summary="删除单个文件">
-      <created>1564562578611</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1564562578611</updated>
+      <workItem from="1638589541753" duration="76000" />
+      <workItem from="1638607789263" duration="4083000" />
     </task>
     <task id="LOCAL-00018" summary="qq混炸鸡">
       <created>1564650822336</created>
@@ -896,7 +905,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638574871564</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="java 再学习03 算法">
+      <created>1638589598442</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1638589598442</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1054,7 +1070,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="手撸基础06" />
     <MESSAGE value="手撸基础07" />
     <MESSAGE value="手撸基础08" />
     <MESSAGE value="手撸基础09" />
@@ -1079,7 +1094,8 @@
     <MESSAGE value="java 再学习03 运算符" />
     <MESSAGE value="java 再学习03 位运算" />
     <MESSAGE value="java 再学习03 byte数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 再学习03 byte数组" />
+    <MESSAGE value="java 再学习03 算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 再学习03 算法" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

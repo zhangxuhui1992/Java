@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @Date 2021/12/3
  * @email zxh_1633@163.com
  * 运算符
- * 算术 逻辑 赋值 比较 位运算符
+ * 算术 逻辑 赋值 比较 位运算符 三元运算符
  */
 public class Study03 {
     public static void main(String[] args) {
@@ -53,6 +53,12 @@ public class Study03 {
         System.out.println(s);
 
         System.out.println(canConstruct("a","b"));
+
+        StringBuilder build = new StringBuilder("aaabbb");
+        int d = build.indexOf("d");
+        System.out.println(d);
+
+        System.out.println(false?"good":"best");
     }
 
     /**
