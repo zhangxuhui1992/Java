@@ -27,5 +27,19 @@ public class Study04 {
         }else{
             System.out.println(3);
         }
+        String s = "3";
+        switch(s){
+            case "3":
+                System.out.println(s);
+                break;
+            case "4":
+                System.out.println("4");
+                break;
+            case "5":
+                System.out.println("5");
+                break;
+            default:
+                System.out.println("JAVA");
+        }
     }
 }

@@ -1,1 +1,2 @@
 1 if语句 如果。。。否则。。。只执行一句
+2 switch...case 语句，可以判定String,num,整数byte，short,int,long,注意书写break否则穿透执行。

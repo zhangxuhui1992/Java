@@ -4,10 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习03 三元运算">
-      <change afterPath="$PROJECT_DIR$/src/newStudy/s04/Study04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/newStudy/s04/note.txt" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习03 流程控制语句">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/newStudy/s04/Study04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s04/Study04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/newStudy/s04/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s04/note.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -563,14 +563,7 @@
       <workItem from="1638573634240" duration="1374000" />
       <workItem from="1638575346255" duration="1790000" />
       <workItem from="1638589541753" duration="76000" />
-      <workItem from="1638607789263" duration="4950000" />
-    </task>
-    <task id="LOCAL-00019" summary="我的电话号码">
-      <created>1564651482832</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1564651482832</updated>
+      <workItem from="1638607789263" duration="5530000" />
     </task>
     <task id="LOCAL-00020" summary="随机数">
       <created>1565189664934</created>
@@ -908,7 +901,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638613940558</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="java 再学习03 流程控制语句">
+      <created>1638616015713</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1638616015713</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1066,7 +1066,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="手撸基础08" />
     <MESSAGE value="手撸基础09" />
     <MESSAGE value="手撸基础010" />
     <MESSAGE value="手撸基础011" />
@@ -1091,7 +1090,8 @@
     <MESSAGE value="java 再学习03 byte数组" />
     <MESSAGE value="java 再学习03 算法" />
     <MESSAGE value="java 再学习03 三元运算" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 再学习03 三元运算" />
+    <MESSAGE value="java 再学习03 流程控制语句" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 再学习03 流程控制语句" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
