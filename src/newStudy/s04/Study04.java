@@ -1,5 +1,7 @@
 package newStudy.s04;
 
+import java.util.Scanner;
+
 /**
  * @Author zhangxuhui
  * @Date 2021/12/4
@@ -40,6 +42,32 @@ public class Study04 {
                 break;
             default:
                 System.out.println("JAVA");
+        }
+
+        getWeak();
+    }
+
+    /**
+     * 输出对应的星期
+     */
+    public static void getWeak(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("请输入数字：");
+        while (true){
+            int i = sc.nextInt();
+            switch (i){
+                case 1:
+                    System.out.println("星期一");
+                    break;
+                case 2:
+                    System.out.println("星期二");
+                    break;
+                case 3:
+                    System.out.println("星期三");
+                    break;
+                default:
+                    System.out.println("不知道！");
+            }
         }
     }
 }

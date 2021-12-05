@@ -4,7 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习03 流程控制语句">
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习03 if switch-case">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/newStudy/s04/Study04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s04/Study04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/newStudy/s04/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s04/note.txt" afterDir="false" />
@@ -334,10 +334,10 @@
     <list>
       <item itemvalue="Application.MainTest" />
       <item itemvalue="Application.Study03" />
+      <item itemvalue="Application.Study04" />
       <item itemvalue="JUnit.BinaryTest.test02" />
       <item itemvalue="JUnit.BinaryTest.test03" />
       <item itemvalue="JUnit.BinaryTest.test05" />
-      <item itemvalue="Application.Study04" />
     </list>
     <recent_temporary>
       <list>
@@ -563,14 +563,8 @@
       <workItem from="1638573634240" duration="1374000" />
       <workItem from="1638575346255" duration="1790000" />
       <workItem from="1638589541753" duration="76000" />
-      <workItem from="1638607789263" duration="5530000" />
-    </task>
-    <task id="LOCAL-00020" summary="随机数">
-      <created>1565189664934</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1565189664934</updated>
+      <workItem from="1638607789263" duration="5641000" />
+      <workItem from="1638661472453" duration="740000" />
     </task>
     <task id="LOCAL-00021" summary="开始读书学习的第一天，javase基础go go go !">
       <created>1565270727601</created>
@@ -908,7 +902,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638616015713</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="java 再学习03 if switch-case">
+      <created>1638616810874</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1638616810874</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1066,7 +1067,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="手撸基础09" />
     <MESSAGE value="手撸基础010" />
     <MESSAGE value="手撸基础011" />
     <MESSAGE value="手撸基础012" />
@@ -1091,7 +1091,8 @@
     <MESSAGE value="java 再学习03 算法" />
     <MESSAGE value="java 再学习03 三元运算" />
     <MESSAGE value="java 再学习03 流程控制语句" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 再学习03 流程控制语句" />
+    <MESSAGE value="java 再学习03 if switch-case" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 再学习03 if switch-case" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
