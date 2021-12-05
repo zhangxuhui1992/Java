@@ -2,6 +2,7 @@ package newStudy.s04;
 
 import org.junit.Test;
 
+import java.io.File;
 import java.util.Scanner;
 
 /**
@@ -95,6 +96,22 @@ public class Study04 {
             }
             System.out.println();
         }
+    }
+
+    /**
+     *  输出九九乘法表
+     */
+    @Test
+    public void test04(){
+        for(int i = 1 ; i <= 9 ;i++){
+            for(int k = 1;k <= i ; k++){
+                System.out.print(k+"*"+i+"="+i*k+"\t");
+            }
+            System.out.println();
+        }
+
+        System.out.println("hello"+System.getProperty("line.separator")+"world");
+        System.out.println("hello"+ File.separator+"world");
     }
 
     /**
