@@ -4,10 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习03 if  循环结构">
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习03 if  九九乘法表">
+      <change afterPath="$PROJECT_DIR$/src/newStudy/s05/Study05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/newStudy/s05/note.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newStudy/s04/Study04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s04/Study04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newStudy/s04/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s04/note.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +243,7 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Study04.test04">
+  <component name="RunManager" selected="Application.Study05">
     <configuration name="MainTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ybjt.study05.MainTest" />
       <module name="JavaSE" />
@@ -257,18 +257,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Study04.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Study05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newStudy.s05.Study05" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="newStudy.s04.*" />
+          <option name="PATTERN" value="newStudy.s05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="newStudy.s04" />
-      <option name="MAIN_CLASS_NAME" value="newStudy.s04.Study04" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -339,19 +336,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="JUnit.Study04.test" />
       <item itemvalue="JUnit.Study04.test01" />
       <item itemvalue="JUnit.Study04.test02" />
       <item itemvalue="JUnit.Study04.test03" />
       <item itemvalue="JUnit.Study04.test04" />
+      <item itemvalue="Application.Study05" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Study05" />
         <item itemvalue="JUnit.Study04.test04" />
         <item itemvalue="JUnit.Study04.test03" />
         <item itemvalue="JUnit.Study04.test02" />
         <item itemvalue="JUnit.Study04.test01" />
-        <item itemvalue="JUnit.Study04.test" />
       </list>
     </recent_temporary>
   </component>
@@ -571,14 +568,8 @@
       <workItem from="1638589541753" duration="76000" />
       <workItem from="1638607789263" duration="5641000" />
       <workItem from="1638661472453" duration="2166000" />
-      <workItem from="1638701816813" duration="1305000" />
-    </task>
-    <task id="LOCAL-00023" summary="readme修改">
-      <created>1565276394897</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1565276394897</updated>
+      <workItem from="1638701816813" duration="1388000" />
+      <workItem from="1638773736446" duration="1409000" />
     </task>
     <task id="LOCAL-00024" summary="数组的应用">
       <created>1565601780676</created>
@@ -916,7 +907,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638671433936</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="java 再学习03 if  九九乘法表">
+      <created>1638707636449</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1638707636449</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1074,7 +1072,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="手撸基础012" />
     <MESSAGE value="手撸基础013" />
     <MESSAGE value="手撸基础014" />
     <MESSAGE value="手撸基础015" />
@@ -1099,7 +1096,8 @@
     <MESSAGE value="java 再学习03 if switch-case" />
     <MESSAGE value="java 再学习03 if switch-case-test" />
     <MESSAGE value="java 再学习03 if  循环结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 再学习03 if  循环结构" />
+    <MESSAGE value="java 再学习03 if  九九乘法表" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 再学习03 if  九九乘法表" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
