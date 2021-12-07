@@ -4,9 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习03 if  九九乘法表">
-      <change afterPath="$PROJECT_DIR$/src/newStudy/s05/Study05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/newStudy/s05/note.txt" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习03 if  方法-重载">
+      <change afterPath="$PROJECT_DIR$/src/newStudy/s06/Study06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/newStudy/s06/note.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -243,7 +243,7 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Study05">
+  <component name="RunManager" selected="Application.Study06">
     <configuration name="MainTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ybjt.study05.MainTest" />
       <module name="JavaSE" />
@@ -270,18 +270,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Study04.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Study06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newStudy.s06.Study06" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="newStudy.s04.*" />
+          <option name="PATTERN" value="newStudy.s06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="newStudy.s04" />
-      <option name="MAIN_CLASS_NAME" value="newStudy.s04.Study04" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -336,19 +333,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="JUnit.Study04.test01" />
+      <item itemvalue="Application.Study05" />
       <item itemvalue="JUnit.Study04.test02" />
       <item itemvalue="JUnit.Study04.test03" />
       <item itemvalue="JUnit.Study04.test04" />
-      <item itemvalue="Application.Study05" />
+      <item itemvalue="Application.Study06" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Study06" />
         <item itemvalue="Application.Study05" />
         <item itemvalue="JUnit.Study04.test04" />
         <item itemvalue="JUnit.Study04.test03" />
         <item itemvalue="JUnit.Study04.test02" />
-        <item itemvalue="JUnit.Study04.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -569,14 +566,8 @@
       <workItem from="1638607789263" duration="5641000" />
       <workItem from="1638661472453" duration="2166000" />
       <workItem from="1638701816813" duration="1388000" />
-      <workItem from="1638773736446" duration="1409000" />
-    </task>
-    <task id="LOCAL-00024" summary="数组的应用">
-      <created>1565601780676</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1565601780676</updated>
+      <workItem from="1638773736446" duration="1459000" />
+      <workItem from="1638885997449" duration="776000" />
     </task>
     <task id="LOCAL-00025" summary="java初级">
       <created>1565688831570</created>
@@ -914,7 +905,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638707636449</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="java 再学习03 if  方法-重载">
+      <created>1638789165082</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1638789165083</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1072,7 +1070,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="手撸基础013" />
     <MESSAGE value="手撸基础014" />
     <MESSAGE value="手撸基础015" />
     <MESSAGE value="手撸基础016" />
@@ -1097,7 +1094,8 @@
     <MESSAGE value="java 再学习03 if switch-case-test" />
     <MESSAGE value="java 再学习03 if  循环结构" />
     <MESSAGE value="java 再学习03 if  九九乘法表" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 再学习03 if  九九乘法表" />
+    <MESSAGE value="java 再学习03 if  方法-重载" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 再学习03 if  方法-重载" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
