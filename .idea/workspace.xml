@@ -4,7 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习06 数组的定义-加班10点到家" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习06 数组的定义-加班7点到家">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/newStudy/s06/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s06/note.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -566,13 +569,7 @@
       <workItem from="1638885997449" duration="1004000" />
       <workItem from="1638887683997" duration="57000" />
       <workItem from="1638887761501" duration="350000" />
-    </task>
-    <task id="LOCAL-00027" summary="抽象、接口">
-      <created>1565837169216</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1565837169216</updated>
+      <workItem from="1638965573550" duration="1159000" />
     </task>
     <task id="LOCAL-00028" summary="异常学习">
       <created>1566228620367</created>
@@ -910,7 +907,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638888090477</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="java 再学习06 数组的定义-加班7点到家">
+      <created>1638965872359</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1638965872359</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1068,7 +1072,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="手撸基础015" />
     <MESSAGE value="手撸基础016" />
     <MESSAGE value="手撸基础017" />
     <MESSAGE value="手撸基础018" />
@@ -1093,7 +1096,8 @@
     <MESSAGE value="java 再学习03 if  九九乘法表" />
     <MESSAGE value="java 再学习03 if  方法-重载" />
     <MESSAGE value="java 再学习06 数组的定义-加班10点到家" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 再学习06 数组的定义-加班10点到家" />
+    <MESSAGE value="java 再学习06 数组的定义-加班7点到家" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 再学习06 数组的定义-加班7点到家" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
