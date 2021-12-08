@@ -22,11 +22,14 @@ public class Study06 {
 
     /**
      * 利用math工具类输出0-10000之间的随机数
+     * 1-100 m-n
+     * Math.random()*(n-m)+m
      */
     public static void getRomand() throws InterruptedException {
 
         for(;;){
-            System.out.println((int)(Math.random()*10000)+10000);
+            //System.out.println((int)(Math.random()*10000)+10000);
+            System.out.println((int)((Math.random()*99)+1));
             Thread.sleep(1000);
         }
 
