@@ -4,9 +4,12 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习06 数组的定义-加班7点到家">
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习06 数组的内存定义-加班7点到家">
+      <change afterPath="$PROJECT_DIR$/src/newStudy/s07/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/newStudy/s07/note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/newStudy/s07/threadStatus.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newStudy/s06/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s06/note.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/newStudy/s06/Study06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s06/Study06.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +152,9 @@
       <select />
     </treeState>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="width" value="1750" />
@@ -218,10 +224,10 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -242,7 +248,7 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Study06">
+  <component name="RunManager" selected="Application.TestMyThread">
     <configuration name="MainTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ybjt.study05.MainTest" />
       <module name="JavaSE" />
@@ -256,12 +262,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Study05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newStudy.s05.Study05" />
+    <configuration name="Study06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newStudy.s06.Study06" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="newStudy.s05.*" />
+          <option name="PATTERN" value="newStudy.s06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,12 +275,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Study06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newStudy.s06.Study06" />
+    <configuration name="TestMyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newStudy.s07.TestMyThread" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="newStudy.s06.*" />
+          <option name="PATTERN" value="newStudy.s07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,19 +338,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.Study05" />
       <item itemvalue="Application.Study06" />
       <item itemvalue="JUnit.Study04.test02" />
       <item itemvalue="JUnit.Study04.test03" />
       <item itemvalue="JUnit.Study04.test04" />
+      <item itemvalue="Application.TestMyThread" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Study06" />
-        <item itemvalue="Application.Study05" />
+        <item itemvalue="Application.TestMyThread" />
         <item itemvalue="JUnit.Study04.test04" />
         <item itemvalue="JUnit.Study04.test03" />
         <item itemvalue="JUnit.Study04.test02" />
+        <item itemvalue="Application.Study06" />
       </list>
     </recent_temporary>
   </component>
@@ -569,14 +575,15 @@
       <workItem from="1638885997449" duration="1004000" />
       <workItem from="1638887683997" duration="57000" />
       <workItem from="1638887761501" duration="350000" />
-      <workItem from="1638965573550" duration="1159000" />
-    </task>
-    <task id="LOCAL-00028" summary="异常学习">
-      <created>1566228620367</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1566228620367</updated>
+      <workItem from="1638965573550" duration="1254000" />
+      <workItem from="1639906564629" duration="61000" />
+      <workItem from="1640345236258" duration="299000" />
+      <workItem from="1640345557506" duration="503000" />
+      <workItem from="1641092402033" duration="73000" />
+      <workItem from="1642296359222" duration="7000" />
+      <workItem from="1642420033911" duration="66000" />
+      <workItem from="1642420118247" duration="236000" />
+      <workItem from="1642420531402" duration="661000" />
     </task>
     <task id="LOCAL-00029" summary="多线程">
       <created>1566401175171</created>
@@ -914,7 +921,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638965872359</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="java 再学习06 数组的内存定义-加班7点到家">
+      <created>1638969008377</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1638969008377</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1072,7 +1086,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="手撸基础016" />
     <MESSAGE value="手撸基础017" />
     <MESSAGE value="手撸基础018" />
     <MESSAGE value="手撸基础019" />
@@ -1097,7 +1110,8 @@
     <MESSAGE value="java 再学习03 if  方法-重载" />
     <MESSAGE value="java 再学习06 数组的定义-加班10点到家" />
     <MESSAGE value="java 再学习06 数组的定义-加班7点到家" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 再学习06 数组的定义-加班7点到家" />
+    <MESSAGE value="java 再学习06 数组的内存定义-加班7点到家" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 再学习06 数组的内存定义-加班7点到家" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
