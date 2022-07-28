@@ -4,12 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习06 数组的内存定义-加班7点到家">
-      <change afterPath="$PROJECT_DIR$/src/newStudy/s07/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/newStudy/s07/note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/newStudy/s07/threadStatus.png" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习07 线程">
+      <change afterPath="$PROJECT_DIR$/src/juc/CompletableFuturePro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juc/CompleteablefutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juc/FutureTaskDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newStudy/s06/Study06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newStudy/s06/Study06.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +226,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -248,7 +247,46 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestMyThread">
+  <component name="RunManager" selected="Application.CompletableFuturePro">
+    <configuration name="CompletableFuturePro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.CompletableFuturePro" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompleteablefutureDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.CompleteablefutureDemo" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FutureTaskDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.FutureTaskDemo" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ybjt.study05.MainTest" />
       <module name="JavaSE" />
@@ -262,12 +300,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Study06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newStudy.s06.Study06" />
+    <configuration name="SyncMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.javaee.collection.SyncMap" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="newStudy.s06.*" />
+          <option name="PATTERN" value="test.javaee.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,8 +313,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newStudy.s07.TestMyThread" />
+    <configuration name="TestScalse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newStudy.s07.TestScalse" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -288,69 +326,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Study04.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="newStudy.s04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="newStudy.s04" />
-      <option name="MAIN_CLASS_NAME" value="newStudy.s04.Study04" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Study04.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="newStudy.s04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="newStudy.s04" />
-      <option name="MAIN_CLASS_NAME" value="newStudy.s04.Study04" />
-      <option name="METHOD_NAME" value="test03" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Study04.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="newStudy.s04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="newStudy.s04" />
-      <option name="MAIN_CLASS_NAME" value="newStudy.s04.Study04" />
-      <option name="METHOD_NAME" value="test04" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.Study06" />
-      <item itemvalue="JUnit.Study04.test02" />
-      <item itemvalue="JUnit.Study04.test03" />
-      <item itemvalue="JUnit.Study04.test04" />
-      <item itemvalue="Application.TestMyThread" />
+      <item itemvalue="Application.TestScalse" />
+      <item itemvalue="Application.SyncMap" />
+      <item itemvalue="Application.FutureTaskDemo" />
+      <item itemvalue="Application.CompleteablefutureDemo" />
+      <item itemvalue="Application.CompletableFuturePro" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestMyThread" />
-        <item itemvalue="JUnit.Study04.test04" />
-        <item itemvalue="JUnit.Study04.test03" />
-        <item itemvalue="JUnit.Study04.test02" />
-        <item itemvalue="Application.Study06" />
+        <item itemvalue="Application.CompletableFuturePro" />
+        <item itemvalue="Application.CompleteablefutureDemo" />
+        <item itemvalue="Application.FutureTaskDemo" />
+        <item itemvalue="Application.SyncMap" />
+        <item itemvalue="Application.TestScalse" />
       </list>
     </recent_temporary>
   </component>
@@ -583,21 +573,11 @@
       <workItem from="1642296359222" duration="7000" />
       <workItem from="1642420033911" duration="66000" />
       <workItem from="1642420118247" duration="236000" />
-      <workItem from="1642420531402" duration="661000" />
-    </task>
-    <task id="LOCAL-00029" summary="多线程">
-      <created>1566401175171</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1566401175172</updated>
-    </task>
-    <task id="LOCAL-00030" summary="手撸基础01">
-      <created>1567070332646</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1567070332646</updated>
+      <workItem from="1642420531402" duration="2205000" />
+      <workItem from="1642835951107" duration="73000" />
+      <workItem from="1650289518511" duration="9000" />
+      <workItem from="1658545272935" duration="895000" />
+      <workItem from="1659015195439" duration="3459000" />
     </task>
     <task id="LOCAL-00031" summary="手撸基础02">
       <created>1567088330077</created>
@@ -928,7 +908,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638969008377</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="java 再学习07 线程">
+      <created>1642422206146</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1642422206146</updated>
+    </task>
+    <task id="LOCAL-00079" summary="java 再学习07 线程">
+      <created>1642427195941</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1642427195942</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1086,7 +1080,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="手撸基础017" />
     <MESSAGE value="手撸基础018" />
     <MESSAGE value="手撸基础019" />
     <MESSAGE value="手撸基础020" />
@@ -1111,7 +1104,8 @@
     <MESSAGE value="java 再学习06 数组的定义-加班10点到家" />
     <MESSAGE value="java 再学习06 数组的定义-加班7点到家" />
     <MESSAGE value="java 再学习06 数组的内存定义-加班7点到家" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 再学习06 数组的内存定义-加班7点到家" />
+    <MESSAGE value="java 再学习07 线程" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 再学习07 线程" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
