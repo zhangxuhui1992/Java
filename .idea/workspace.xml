@@ -4,10 +4,13 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="java 再学习07 线程">
-      <change afterPath="$PROJECT_DIR$/src/juc/CompletableFuturePro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juc/CompleteablefutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juc/FutureTaskDemo.java" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="异步任务：future CompletableFuture">
+      <change afterPath="$PROJECT_DIR$/src/juc/DeideLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juc/StopThreadByAtomicBoolean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juc/StopThreadByInterrupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juc/StopThreadByVoliate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juc/TestInterruptException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juc/TestInterrupted.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -223,6 +226,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -247,46 +251,7 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompletableFuturePro">
-    <configuration name="CompletableFuturePro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.CompletableFuturePro" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompleteablefutureDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.CompleteablefutureDemo" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FutureTaskDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.FutureTaskDemo" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestInterrupted">
     <configuration name="MainTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ybjt.study05.MainTest" />
       <module name="JavaSE" />
@@ -300,12 +265,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyncMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.javaee.collection.SyncMap" />
+    <configuration name="StopThreadByAtomicBoolean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.StopThreadByAtomicBoolean" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.javaee.collection.*" />
+          <option name="PATTERN" value="juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,12 +278,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestScalse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newStudy.s07.TestScalse" />
+    <configuration name="StopThreadByInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.StopThreadByInterrupt" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="newStudy.s07.*" />
+          <option name="PATTERN" value="juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StopThreadByVoliate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.StopThreadByVoliate" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestInterruptException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.TestInterruptException" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestInterrupted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.TestInterrupted" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,19 +332,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.TestScalse" />
-      <item itemvalue="Application.SyncMap" />
-      <item itemvalue="Application.FutureTaskDemo" />
-      <item itemvalue="Application.CompleteablefutureDemo" />
-      <item itemvalue="Application.CompletableFuturePro" />
+      <item itemvalue="Application.StopThreadByVoliate" />
+      <item itemvalue="Application.StopThreadByAtomicBoolean" />
+      <item itemvalue="Application.StopThreadByInterrupt" />
+      <item itemvalue="Application.TestInterruptException" />
+      <item itemvalue="Application.TestInterrupted" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CompletableFuturePro" />
-        <item itemvalue="Application.CompleteablefutureDemo" />
-        <item itemvalue="Application.FutureTaskDemo" />
-        <item itemvalue="Application.SyncMap" />
-        <item itemvalue="Application.TestScalse" />
+        <item itemvalue="Application.TestInterrupted" />
+        <item itemvalue="Application.TestInterruptException" />
+        <item itemvalue="Application.StopThreadByInterrupt" />
+        <item itemvalue="Application.StopThreadByAtomicBoolean" />
+        <item itemvalue="Application.StopThreadByVoliate" />
       </list>
     </recent_temporary>
   </component>
@@ -577,14 +581,8 @@
       <workItem from="1642835951107" duration="73000" />
       <workItem from="1650289518511" duration="9000" />
       <workItem from="1658545272935" duration="895000" />
-      <workItem from="1659015195439" duration="3459000" />
-    </task>
-    <task id="LOCAL-00031" summary="手撸基础02">
-      <created>1567088330077</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1567088330077</updated>
+      <workItem from="1659015195439" duration="3751000" />
+      <workItem from="1659133920787" duration="2891000" />
     </task>
     <task id="LOCAL-00032" summary="手撸基础03">
       <created>1567153159283</created>
@@ -922,7 +920,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642427195942</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="异步任务：future CompletableFuture">
+      <created>1659019491997</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1659019491998</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1080,7 +1085,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="手撸基础018" />
     <MESSAGE value="手撸基础019" />
     <MESSAGE value="手撸基础020" />
     <MESSAGE value="手撸基础021" />
@@ -1105,7 +1109,8 @@
     <MESSAGE value="java 再学习06 数组的定义-加班7点到家" />
     <MESSAGE value="java 再学习06 数组的内存定义-加班7点到家" />
     <MESSAGE value="java 再学习07 线程" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 再学习07 线程" />
+    <MESSAGE value="异步任务：future CompletableFuture" />
+    <option name="LAST_COMMIT_MESSAGE" value="异步任务：future CompletableFuture" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
