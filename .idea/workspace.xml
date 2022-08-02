@@ -4,12 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="Thread 等待唤醒机制">
-      <change afterPath="$PROJECT_DIR$/src/juc/AtomicDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juc/AtomicIntegerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juc/AtomicMarkableReferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juc/AtomicReferenceFieldUpdaterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juc/LongAdderDemo.java" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="atomic 原子操作类">
+      <change afterPath="$PROJECT_DIR$/src/juc/ReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juc/ThreadLocalDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -250,33 +247,7 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongAdderDemo">
-    <configuration name="AtomicDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.AtomicDemo" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AtomicIntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.AtomicIntegerDemo" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadLocalDemo">
     <configuration name="AtomicMarkableReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="juc.AtomicMarkableReferenceDemo" />
       <module name="JavaSE" />
@@ -329,21 +300,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.ReferenceDemo" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.ThreadLocalDemo" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.AtomicDemo" />
-      <item itemvalue="Application.AtomicIntegerDemo" />
       <item itemvalue="Application.AtomicMarkableReferenceDemo" />
       <item itemvalue="Application.AtomicReferenceFieldUpdaterDemo" />
       <item itemvalue="Application.LongAdderDemo" />
+      <item itemvalue="Application.ReferenceDemo" />
+      <item itemvalue="Application.ThreadLocalDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadLocalDemo" />
+        <item itemvalue="Application.ReferenceDemo" />
         <item itemvalue="Application.LongAdderDemo" />
         <item itemvalue="Application.AtomicReferenceFieldUpdaterDemo" />
         <item itemvalue="Application.AtomicMarkableReferenceDemo" />
-        <item itemvalue="Application.AtomicIntegerDemo" />
-        <item itemvalue="Application.AtomicDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -584,14 +581,8 @@
       <workItem from="1659133920787" duration="2991000" />
       <workItem from="1659153094622" duration="387000" />
       <workItem from="1659224765157" duration="2692000" />
-      <workItem from="1659355487311" duration="4223000" />
-    </task>
-    <task id="LOCAL-00034" summary="手撸基础05">
-      <created>1567521817016</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1567521817016</updated>
+      <workItem from="1659355487311" duration="4254000" />
+      <workItem from="1659442399620" duration="3976000" />
     </task>
     <task id="LOCAL-00035" summary="手撸基础06">
       <created>1568037806113</created>
@@ -929,7 +920,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659234758919</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="atomic 原子操作类">
+      <created>1659364901580</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1659364901581</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1112,7 +1110,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="手撸基础021" />
     <MESSAGE value="手撸基础022" />
     <MESSAGE value="手撸基础023" />
     <MESSAGE value="study" />
@@ -1137,7 +1134,8 @@
     <MESSAGE value="异步任务：future CompletableFuture" />
     <MESSAGE value="Thread interrupt test" />
     <MESSAGE value="Thread 等待唤醒机制" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread 等待唤醒机制" />
+    <MESSAGE value="atomic 原子操作类" />
+    <option name="LAST_COMMIT_MESSAGE" value="atomic 原子操作类" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
