@@ -13,10 +13,23 @@ public class CollectionTest {
          * list 有序可以重复 ArrayList 底层使用obejct数组
          * set 无序不可以重复
          */
-        List list = new ArrayList();
+        List list = new ArrayList<String>();
 
         List lined = new LinkedList();
 
         Map map = new HashMap();
+
+        list.add("java");
+        list.add("python");
+        list.add("javascript");
+        list.add("go");
+
+        Iterator iterator = list.iterator();
+        while(iterator.hasNext()){
+            Object next = iterator.next();
+            System.out.println(next);
+        }
+
+
     }
 }
