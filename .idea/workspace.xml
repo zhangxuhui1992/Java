@@ -4,9 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="threadlocal 线程局部变量">
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="集合collection,迭代器，增强for">
+      <change afterPath="$PROJECT_DIR$/src/test/javaee/collection/ArrayListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/javaee/collection/CollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/javaee/collection/CollectionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +68,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="All" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -225,7 +228,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -246,13 +249,13 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CollectionTest">
-    <configuration name="AtomicReferenceFieldUpdaterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.AtomicReferenceFieldUpdaterDemo" />
+  <component name="RunManager" selected="Application.ArrayListTest">
+    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.javaee.collection.ArrayListTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.*" />
+          <option name="PATTERN" value="test.javaee.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,19 +330,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.AtomicReferenceFieldUpdaterDemo" />
       <item itemvalue="Application.LongAdderDemo" />
       <item itemvalue="Application.ReferenceDemo" />
       <item itemvalue="Application.ThreadLocalDemo" />
       <item itemvalue="Application.CollectionTest" />
+      <item itemvalue="Application.ArrayListTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListTest" />
         <item itemvalue="Application.CollectionTest" />
         <item itemvalue="Application.ThreadLocalDemo" />
         <item itemvalue="Application.ReferenceDemo" />
         <item itemvalue="Application.LongAdderDemo" />
-        <item itemvalue="Application.AtomicReferenceFieldUpdaterDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -585,21 +588,14 @@
       <workItem from="1661172575585" duration="37000" />
       <workItem from="1675167278786" duration="26000" />
       <workItem from="1675424754505" duration="975000" />
-      <workItem from="1675425828047" duration="505000" />
-    </task>
-    <task id="LOCAL-00036" summary="手撸基础07">
-      <created>1570530227140</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1570530227141</updated>
-    </task>
-    <task id="LOCAL-00037" summary="手撸基础08">
-      <created>1571122816261</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1571122816261</updated>
+      <workItem from="1675425828047" duration="785000" />
+      <workItem from="1675768385308" duration="679000" />
+      <workItem from="1675769568554" duration="257000" />
+      <workItem from="1675770436033" duration="7000" />
+      <workItem from="1675770561169" duration="1187000" />
+      <workItem from="1675771990546" duration="2746000" />
+      <workItem from="1675854563929" duration="492000" />
+      <workItem from="1676286812091" duration="421000" />
     </task>
     <task id="LOCAL-00038" summary="手撸基础09">
       <created>1572587016869</created>
@@ -930,7 +926,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659447153150</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="集合collection,迭代器，增强for">
+      <created>1675426656872</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1675426656873</updated>
+    </task>
+    <task id="LOCAL-00086" summary="集合collection,迭代器，增强for">
+      <created>1675427073177</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1675427073177</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1113,7 +1123,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="手撸基础023" />
     <MESSAGE value="study" />
     <MESSAGE value="java 再学习01" />
     <MESSAGE value="java 再学习02 二进制转十进制" />
@@ -1138,7 +1147,19 @@
     <MESSAGE value="Thread 等待唤醒机制" />
     <MESSAGE value="atomic 原子操作类" />
     <MESSAGE value="threadlocal 线程局部变量" />
-    <option name="LAST_COMMIT_MESSAGE" value="threadlocal 线程局部变量" />
+    <MESSAGE value="集合collection,迭代器，增强for" />
+    <option name="LAST_COMMIT_MESSAGE" value="集合collection,迭代器，增强for" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/javaee/collection/ArrayListTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -1151,6 +1172,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSE$StringBufferTest.ic" NAME="StringBufferTest Coverage Results" MODIFIED="1573649188346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ybjt.study07.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/java$ArrayListTest.ic" NAME="ArrayListTest Coverage Results" MODIFIED="1675773030248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.javaee.collection.*</FILTER>
     </SUITE>
   </component>
   <component name="editorHistoryManager">
