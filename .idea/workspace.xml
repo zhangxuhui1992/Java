@@ -4,14 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="类加载机制 类只加载一次">
-      <change afterPath="$PROJECT_DIR$/src/juc/InterruptBlockedThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juc/InterruptPark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juc/JoinThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juc/TwoPhaseTermation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juc/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juc/两阶段终止模式.png" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="interrupt 打断线程">
+      <change afterPath="$PROJECT_DIR$/src/com/study/ByteBufferTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/juc/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/juc/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juc/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/note.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,13 +251,13 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterruptPark">
-    <configuration name="InterruptBlockedThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.InterruptBlockedThread" />
+  <component name="RunManager" selected="Application.ByteBufferTest">
+    <configuration name="ByteBufferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.ByteBufferTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.*" />
+          <option name="PATTERN" value="com.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,19 +267,6 @@
     </configuration>
     <configuration name="InterruptPark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="juc.InterruptPark" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JoinThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.JoinThreadTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -307,12 +291,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyPhone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.utils.MyPhone" />
+    <configuration name="RobotTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.RobotTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.utils.*" />
+          <option name="PATTERN" value="com.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,12 +304,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoPhaseTermation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.TwoPhaseTermation" />
+    <configuration name="TestScalse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newStudy.s07.TestScalse" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.*" />
+          <option name="PATTERN" value="newStudy.s07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.javase.thread.myThread" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.javase.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,19 +332,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.MyPhone" />
-      <item itemvalue="Application.JoinThreadTest" />
-      <item itemvalue="Application.InterruptBlockedThread" />
-      <item itemvalue="Application.TwoPhaseTermation" />
       <item itemvalue="Application.InterruptPark" />
+      <item itemvalue="Application.TestScalse" />
+      <item itemvalue="Application.myThread" />
+      <item itemvalue="Application.RobotTest" />
+      <item itemvalue="Application.ByteBufferTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ByteBufferTest" />
+        <item itemvalue="Application.RobotTest" />
+        <item itemvalue="Application.myThread" />
+        <item itemvalue="Application.TestScalse" />
         <item itemvalue="Application.InterruptPark" />
-        <item itemvalue="Application.TwoPhaseTermation" />
-        <item itemvalue="Application.InterruptBlockedThread" />
-        <item itemvalue="Application.JoinThreadTest" />
-        <item itemvalue="Application.MyPhone" />
       </list>
     </recent_temporary>
   </component>
@@ -602,21 +599,10 @@
       <workItem from="1675854563929" duration="492000" />
       <workItem from="1676286812091" duration="4802000" />
       <workItem from="1676632276954" duration="429000" />
-      <workItem from="1676894865046" duration="2890000" />
-    </task>
-    <task id="LOCAL-00040" summary="手撸基础010">
-      <created>1572859649603</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1572859649603</updated>
-    </task>
-    <task id="LOCAL-00041" summary="手撸基础011">
-      <created>1573655790137</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1573655790138</updated>
+      <workItem from="1676894865046" duration="3381000" />
+      <workItem from="1676980308073" duration="1781000" />
+      <workItem from="1678146895847" duration="492000" />
+      <workItem from="1678705373195" duration="1850000" />
     </task>
     <task id="LOCAL-00042" summary="手撸基础012">
       <created>1573803341735</created>
@@ -947,7 +933,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676296968119</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="interrupt 打断线程">
+      <created>1676898307339</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1676898307339</updated>
+    </task>
+    <task id="LOCAL-00090" summary="interrupt 打断线程">
+      <created>1676898421387</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1676898421387</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1130,7 +1130,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java 再学习02 二进制转十进制" />
     <MESSAGE value="java 再学习02 类型转换" />
     <MESSAGE value="java 再学习03 运算符" />
     <MESSAGE value="java 再学习03 位运算" />
@@ -1155,7 +1154,8 @@
     <MESSAGE value="集合collection,迭代器，增强for" />
     <MESSAGE value="ArrayList 新建扩容机制查看，new后为object类型的空数组，第一次添加数据时，扩容为默认的容量10。当容量不够时扩容机制为原来数组的1.5倍。" />
     <MESSAGE value="类加载机制 类只加载一次" />
-    <option name="LAST_COMMIT_MESSAGE" value="类加载机制 类只加载一次" />
+    <MESSAGE value="interrupt 打断线程" />
+    <option name="LAST_COMMIT_MESSAGE" value="interrupt 打断线程" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
