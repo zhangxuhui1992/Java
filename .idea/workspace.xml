@@ -4,11 +4,13 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="interrupt 打断线程">
-      <change afterPath="$PROJECT_DIR$/src/com/study/ByteBufferTest.java" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="buffer test">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hutool_all_5_8_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hutool-all-5.8.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/CreatThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/option/OptionalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/juc/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/juc/note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juc/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/juc/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,8 +204,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -251,7 +254,7 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ByteBufferTest">
+  <component name="RunManager" selected="Application.CreatThread">
     <configuration name="ByteBufferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.ByteBufferTest" />
       <module name="JavaSE" />
@@ -265,12 +268,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterruptPark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.InterruptPark" />
+    <configuration name="CreatThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.CreatThread" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.*" />
+          <option name="PATTERN" value="new2023.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,6 +294,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OptionalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.option.OptionalTest" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="new2023.option.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QQBoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ybjt.utils.QQBoom" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ybjt.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RobotTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.RobotTest" />
       <module name="JavaSE" />
@@ -304,47 +333,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestScalse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newStudy.s07.TestScalse" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="newStudy.s07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="myThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.javase.thread.myThread" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.javase.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.InterruptPark" />
-      <item itemvalue="Application.TestScalse" />
-      <item itemvalue="Application.myThread" />
       <item itemvalue="Application.RobotTest" />
       <item itemvalue="Application.ByteBufferTest" />
+      <item itemvalue="Application.QQBoom" />
+      <item itemvalue="Application.OptionalTest" />
+      <item itemvalue="Application.CreatThread" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreatThread" />
+        <item itemvalue="Application.OptionalTest" />
+        <item itemvalue="Application.QQBoom" />
         <item itemvalue="Application.ByteBufferTest" />
         <item itemvalue="Application.RobotTest" />
-        <item itemvalue="Application.myThread" />
-        <item itemvalue="Application.TestScalse" />
-        <item itemvalue="Application.InterruptPark" />
       </list>
     </recent_temporary>
   </component>
@@ -602,14 +605,9 @@
       <workItem from="1676894865046" duration="3381000" />
       <workItem from="1676980308073" duration="1781000" />
       <workItem from="1678146895847" duration="492000" />
-      <workItem from="1678705373195" duration="1850000" />
-    </task>
-    <task id="LOCAL-00042" summary="手撸基础012">
-      <created>1573803341735</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1573803341735</updated>
+      <workItem from="1678705373195" duration="2177000" />
+      <workItem from="1678797999250" duration="627000" />
+      <workItem from="1678880889381" duration="4597000" />
     </task>
     <task id="LOCAL-00043" summary="手撸基础013">
       <created>1574155374471</created>
@@ -947,7 +945,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676898421387</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="buffer test">
+      <created>1678707559775</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1678707559775</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1130,7 +1135,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java 再学习02 类型转换" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="java 再学习03 运算符" />
     <MESSAGE value="java 再学习03 位运算" />
     <MESSAGE value="java 再学习03 byte数组" />
@@ -1155,7 +1160,8 @@
     <MESSAGE value="ArrayList 新建扩容机制查看，new后为object类型的空数组，第一次添加数据时，扩容为默认的容量10。当容量不够时扩容机制为原来数组的1.5倍。" />
     <MESSAGE value="类加载机制 类只加载一次" />
     <MESSAGE value="interrupt 打断线程" />
-    <option name="LAST_COMMIT_MESSAGE" value="interrupt 打断线程" />
+    <MESSAGE value="buffer test" />
+    <option name="LAST_COMMIT_MESSAGE" value="buffer test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
