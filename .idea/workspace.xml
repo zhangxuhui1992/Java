@@ -4,13 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="buffer test">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/hutool_all_5_8_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hutool-all-5.8.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/juc/CreatThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/option/OptionalTest.java" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="creat thread">
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/SleepTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/ThreadMilupat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/YieldPriorotyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,13 +252,13 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreatThread">
-    <configuration name="ByteBufferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.ByteBufferTest" />
+  <component name="RunManager" selected="Application.CpuSleepTest">
+    <configuration name="CpuSleepTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.CpuSleepTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.*" />
+          <option name="PATTERN" value="new2023.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,12 +292,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.option.OptionalTest" />
+    <configuration name="SleepTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.SleepTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="new2023.option.*" />
+          <option name="PATTERN" value="new2023.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,12 +305,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QQBoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ybjt.utils.QQBoom" />
+    <configuration name="ThreadMilupat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.ThreadMilupat" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ybjt.utils.*" />
+          <option name="PATTERN" value="new2023.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,12 +318,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RobotTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.RobotTest" />
+    <configuration name="YieldPriorotyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.YieldPriorotyTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.*" />
+          <option name="PATTERN" value="new2023.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,19 +333,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.RobotTest" />
-      <item itemvalue="Application.ByteBufferTest" />
-      <item itemvalue="Application.QQBoom" />
-      <item itemvalue="Application.OptionalTest" />
       <item itemvalue="Application.CreatThread" />
+      <item itemvalue="Application.ThreadMilupat" />
+      <item itemvalue="Application.SleepTest" />
+      <item itemvalue="Application.YieldPriorotyTest" />
+      <item itemvalue="Application.CpuSleepTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CpuSleepTest" />
+        <item itemvalue="Application.YieldPriorotyTest" />
+        <item itemvalue="Application.SleepTest" />
+        <item itemvalue="Application.ThreadMilupat" />
         <item itemvalue="Application.CreatThread" />
-        <item itemvalue="Application.OptionalTest" />
-        <item itemvalue="Application.QQBoom" />
-        <item itemvalue="Application.ByteBufferTest" />
-        <item itemvalue="Application.RobotTest" />
       </list>
     </recent_temporary>
   </component>
@@ -607,14 +605,8 @@
       <workItem from="1678146895847" duration="492000" />
       <workItem from="1678705373195" duration="2177000" />
       <workItem from="1678797999250" duration="627000" />
-      <workItem from="1678880889381" duration="4597000" />
-    </task>
-    <task id="LOCAL-00043" summary="手撸基础013">
-      <created>1574155374471</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1574155374471</updated>
+      <workItem from="1678880889381" duration="4782000" />
+      <workItem from="1678968044149" duration="5235000" />
     </task>
     <task id="LOCAL-00044" summary="手撸基础014">
       <created>1574260160117</created>
@@ -952,7 +944,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678707559775</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="creat thread">
+      <created>1678887578524</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1678887578524</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1136,7 +1135,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="java 再学习03 运算符" />
     <MESSAGE value="java 再学习03 位运算" />
     <MESSAGE value="java 再学习03 byte数组" />
     <MESSAGE value="java 再学习03 算法" />
@@ -1161,7 +1159,8 @@
     <MESSAGE value="类加载机制 类只加载一次" />
     <MESSAGE value="interrupt 打断线程" />
     <MESSAGE value="buffer test" />
-    <option name="LAST_COMMIT_MESSAGE" value="buffer test" />
+    <MESSAGE value="creat thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="creat thread" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1170,6 +1169,11 @@
           <url>file://$PROJECT_DIR$/src/test/javaee/collection/ArrayListTest.java</url>
           <line>19</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/new2023/juc/ThreadMilupat.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
