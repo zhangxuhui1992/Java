@@ -4,10 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="creat thread">
-      <change afterPath="$PROJECT_DIR$/src/new2023/juc/SleepTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/juc/ThreadMilupat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/juc/YieldPriorotyTest.java" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="sleep yield 优先级 线程栈 上下文切换">
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/InterruptRunningThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/InterruptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/JoinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/TwoPhaseTermination.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -252,7 +253,7 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CpuSleepTest">
+  <component name="RunManager" selected="Application.TwoPhaseTermination">
     <configuration name="CpuSleepTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="new2023.juc.CpuSleepTest" />
       <module name="JavaSE" />
@@ -266,8 +267,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreatThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.CreatThread" />
+    <configuration name="InterruptRunningThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.InterruptRunningThread" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="new2023.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterruptTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.InterruptTest" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="new2023.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.JoinTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -292,34 +319,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SleepTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.SleepTest" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="new2023.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadMilupat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.ThreadMilupat" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="new2023.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YieldPriorotyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.YieldPriorotyTest" />
+    <configuration name="TwoPhaseTermination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.TwoPhaseTermination" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -333,19 +334,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.CreatThread" />
-      <item itemvalue="Application.ThreadMilupat" />
-      <item itemvalue="Application.SleepTest" />
-      <item itemvalue="Application.YieldPriorotyTest" />
       <item itemvalue="Application.CpuSleepTest" />
+      <item itemvalue="Application.JoinTest" />
+      <item itemvalue="Application.InterruptTest" />
+      <item itemvalue="Application.InterruptRunningThread" />
+      <item itemvalue="Application.TwoPhaseTermination" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoPhaseTermination" />
+        <item itemvalue="Application.InterruptRunningThread" />
+        <item itemvalue="Application.InterruptTest" />
+        <item itemvalue="Application.JoinTest" />
         <item itemvalue="Application.CpuSleepTest" />
-        <item itemvalue="Application.YieldPriorotyTest" />
-        <item itemvalue="Application.SleepTest" />
-        <item itemvalue="Application.ThreadMilupat" />
-        <item itemvalue="Application.CreatThread" />
       </list>
     </recent_temporary>
   </component>
@@ -606,14 +607,8 @@
       <workItem from="1678705373195" duration="2177000" />
       <workItem from="1678797999250" duration="627000" />
       <workItem from="1678880889381" duration="4782000" />
-      <workItem from="1678968044149" duration="5235000" />
-    </task>
-    <task id="LOCAL-00044" summary="手撸基础014">
-      <created>1574260160117</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1574260160117</updated>
+      <workItem from="1678968044149" duration="5587000" />
+      <workItem from="1679055311099" duration="3361000" />
     </task>
     <task id="LOCAL-00045" summary="手撸基础014">
       <created>1574342417070</created>
@@ -951,7 +946,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678887578524</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="sleep yield 优先级 线程栈 上下文切换">
+      <created>1678975219572</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1678975219572</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1135,7 +1137,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="java 再学习03 位运算" />
     <MESSAGE value="java 再学习03 byte数组" />
     <MESSAGE value="java 再学习03 算法" />
     <MESSAGE value="java 再学习03 三元运算" />
@@ -1160,7 +1161,8 @@
     <MESSAGE value="interrupt 打断线程" />
     <MESSAGE value="buffer test" />
     <MESSAGE value="creat thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="creat thread" />
+    <MESSAGE value="sleep yield 优先级 线程栈 上下文切换" />
+    <option name="LAST_COMMIT_MESSAGE" value="sleep yield 优先级 线程栈 上下文切换" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
