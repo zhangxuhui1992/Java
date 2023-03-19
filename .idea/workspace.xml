@@ -4,10 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="inturrupt打断线程">
-      <change afterPath="$PROJECT_DIR$/src/new2023/juc/InterruptPark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/juc/SetThreadDeamon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/juc/TeaThread.java" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="线程的状态">
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/OOMSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/synchronizedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -252,22 +251,9 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TeaThread">
+  <component name="RunManager" selected="Application.OOMSynchronized">
     <configuration name="InterruptPark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="new2023.juc.InterruptPark" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="new2023.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterruptRunningThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.InterruptRunningThread" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -285,6 +271,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ybjt.study05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OOMSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.OOMSynchronized" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="new2023.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,8 +317,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoPhaseTermination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.TwoPhaseTermination" />
+    <configuration name="synchronizedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.synchronizedTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -333,19 +332,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.InterruptRunningThread" />
-      <item itemvalue="Application.TwoPhaseTermination" />
       <item itemvalue="Application.InterruptPark" />
       <item itemvalue="Application.SetThreadDeamon" />
       <item itemvalue="Application.TeaThread" />
+      <item itemvalue="Application.synchronizedTest" />
+      <item itemvalue="Application.OOMSynchronized" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OOMSynchronized" />
+        <item itemvalue="Application.synchronizedTest" />
         <item itemvalue="Application.TeaThread" />
         <item itemvalue="Application.SetThreadDeamon" />
         <item itemvalue="Application.InterruptPark" />
-        <item itemvalue="Application.TwoPhaseTermination" />
-        <item itemvalue="Application.InterruptRunningThread" />
       </list>
     </recent_temporary>
   </component>
@@ -608,14 +607,8 @@
       <workItem from="1678880889381" duration="4782000" />
       <workItem from="1678968044149" duration="5587000" />
       <workItem from="1679055311099" duration="3558000" />
-      <workItem from="1679141627480" duration="2573000" />
-    </task>
-    <task id="LOCAL-00046" summary="手撸基础015">
-      <created>1578533194214</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1578533194214</updated>
+      <workItem from="1679141627480" duration="2700000" />
+      <workItem from="1679227537690" duration="1855000" />
     </task>
     <task id="LOCAL-00047" summary="手撸基础016">
       <created>1581657629316</created>
@@ -953,7 +946,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679060959955</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="线程的状态">
+      <created>1679146405695</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1679146405695</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1137,7 +1137,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="java 再学习03 算法" />
     <MESSAGE value="java 再学习03 三元运算" />
     <MESSAGE value="java 再学习03 流程控制语句" />
     <MESSAGE value="java 再学习03 if switch-case" />
@@ -1162,7 +1161,8 @@
     <MESSAGE value="creat thread" />
     <MESSAGE value="sleep yield 优先级 线程栈 上下文切换" />
     <MESSAGE value="inturrupt打断线程" />
-    <option name="LAST_COMMIT_MESSAGE" value="inturrupt打断线程" />
+    <MESSAGE value="线程的状态" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程的状态" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
