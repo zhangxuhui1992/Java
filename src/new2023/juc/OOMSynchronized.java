@@ -51,3 +51,27 @@ class Room{
         }
     }
 }
+
+class test{
+    public void t1(){
+        synchronized (this){
+
+        }
+    }
+
+    public synchronized  void t2(){
+
+    }
+}
+
+class test2{
+    public synchronized static void t(){
+
+    }
+
+    public void t2(){
+        synchronized (test2.class){
+
+        }
+    }
+}

@@ -4,10 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="线程的状态">
-      <change afterPath="$PROJECT_DIR$/src/new2023/juc/OOMSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/juc/synchronizedTest.java" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="synchronized study">
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/SafeString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new2023/juc/OOMSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/new2023/juc/OOMSynchronized.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -608,14 +608,8 @@
       <workItem from="1678968044149" duration="5587000" />
       <workItem from="1679055311099" duration="3558000" />
       <workItem from="1679141627480" duration="2700000" />
-      <workItem from="1679227537690" duration="1855000" />
-    </task>
-    <task id="LOCAL-00047" summary="手撸基础016">
-      <created>1581657629316</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1581657629316</updated>
+      <workItem from="1679227537690" duration="2002000" />
+      <workItem from="1679316607592" duration="1230000" />
     </task>
     <task id="LOCAL-00048" summary="手撸基础017">
       <created>1581915108051</created>
@@ -953,7 +947,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679146405695</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="synchronized study">
+      <created>1679230717577</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1679230717577</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1137,7 +1138,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="java 再学习03 三元运算" />
     <MESSAGE value="java 再学习03 流程控制语句" />
     <MESSAGE value="java 再学习03 if switch-case" />
     <MESSAGE value="java 再学习03 if switch-case-test" />
@@ -1162,7 +1162,8 @@
     <MESSAGE value="sleep yield 优先级 线程栈 上下文切换" />
     <MESSAGE value="inturrupt打断线程" />
     <MESSAGE value="线程的状态" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程的状态" />
+    <MESSAGE value="synchronized study" />
+    <option name="LAST_COMMIT_MESSAGE" value="synchronized study" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
