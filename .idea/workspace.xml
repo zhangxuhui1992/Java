@@ -4,8 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="synchronized 成员变量不安全，局部变量非引用安全。">
-      <change afterPath="$PROJECT_DIR$/src/new2023/juc/AcountTest.java" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="synchronized monitor监视器保证线程安全">
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/NIOTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -250,7 +250,7 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AcountTest">
+  <component name="RunManager" selected="Application.NIOTest">
     <configuration name="AcountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="new2023.juc.AcountTest" />
       <module name="JavaSE" />
@@ -290,8 +290,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOMSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.OOMSynchronized" />
+    <configuration name="NIOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.NIOTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -303,8 +303,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeaThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.TeaThread" />
+    <configuration name="OOMSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.OOMSynchronized" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -331,19 +331,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.TeaThread" />
       <item itemvalue="Application.synchronizedTest" />
       <item itemvalue="Application.OOMSynchronized" />
       <item itemvalue="Application.ArrayListTest" />
       <item itemvalue="Application.AcountTest" />
+      <item itemvalue="Application.NIOTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NIOTest" />
         <item itemvalue="Application.AcountTest" />
         <item itemvalue="Application.ArrayListTest" />
         <item itemvalue="Application.OOMSynchronized" />
         <item itemvalue="Application.synchronizedTest" />
-        <item itemvalue="Application.TeaThread" />
       </list>
     </recent_temporary>
   </component>
@@ -609,14 +609,8 @@
       <workItem from="1679141627480" duration="2700000" />
       <workItem from="1679227537690" duration="2002000" />
       <workItem from="1679316607592" duration="1295000" />
-      <workItem from="1679404358131" duration="1812000" />
-    </task>
-    <task id="LOCAL-00049" summary="手撸基础018">
-      <created>1584089107160</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1584089107160</updated>
+      <workItem from="1679404358131" duration="1853000" />
+      <workItem from="1679570959640" duration="2035000" />
     </task>
     <task id="LOCAL-00050" summary="手撸基础019">
       <created>1585730627631</created>
@@ -954,7 +948,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679321399675</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="synchronized monitor监视器保证线程安全">
+      <created>1679407770575</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1679407770576</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1138,7 +1139,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="java 再学习03 if switch-case" />
     <MESSAGE value="java 再学习03 if switch-case-test" />
     <MESSAGE value="java 再学习03 if  循环结构" />
     <MESSAGE value="java 再学习03 if  九九乘法表" />
@@ -1163,7 +1163,8 @@
     <MESSAGE value="线程的状态" />
     <MESSAGE value="synchronized study" />
     <MESSAGE value="synchronized 成员变量不安全，局部变量非引用安全。" />
-    <option name="LAST_COMMIT_MESSAGE" value="synchronized 成员变量不安全，局部变量非引用安全。" />
+    <MESSAGE value="synchronized monitor监视器保证线程安全" />
+    <option name="LAST_COMMIT_MESSAGE" value="synchronized monitor监视器保证线程安全" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
