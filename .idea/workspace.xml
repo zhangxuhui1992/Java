@@ -4,9 +4,15 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="阻塞式io">
-      <change afterPath="$PROJECT_DIR$/src/new2023/juc/InvokeSynchronized.java" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="wait notify notifyall">
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/WaitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/保护性暂停/GuardeObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/保护性暂停/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/生产者消费者模式/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/生产者消费者模式/MessageQuene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/生产者消费者模式/TestMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new2023/juc/SleepTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/new2023/juc/SleepTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,33 +256,7 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InvokeSynchronized">
-    <configuration name="AcountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.AcountTest" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="new2023.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.ArrayListTest" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SleepTest">
     <configuration name="InvokeSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="new2023.juc.InvokeSynchronized" />
       <module name="JavaSE" />
@@ -303,8 +283,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.NIOTest" />
+    <configuration name="SleepTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.SleepTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -316,8 +296,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOMSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.OOMSynchronized" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.保护性暂停.Test" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="new2023.保护性暂停.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.生产者消费者模式.TestMessage" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="new2023.生产者消费者模式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.WaitTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -331,19 +337,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.OOMSynchronized" />
-      <item itemvalue="Application.ArrayListTest" />
-      <item itemvalue="Application.AcountTest" />
-      <item itemvalue="Application.NIOTest" />
       <item itemvalue="Application.InvokeSynchronized" />
+      <item itemvalue="Application.WaitTest" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.TestMessage" />
+      <item itemvalue="Application.SleepTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SleepTest" />
+        <item itemvalue="Application.TestMessage" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.WaitTest" />
         <item itemvalue="Application.InvokeSynchronized" />
-        <item itemvalue="Application.NIOTest" />
-        <item itemvalue="Application.AcountTest" />
-        <item itemvalue="Application.ArrayListTest" />
-        <item itemvalue="Application.OOMSynchronized" />
       </list>
     </recent_temporary>
   </component>
@@ -612,14 +618,9 @@
       <workItem from="1679404358131" duration="1853000" />
       <workItem from="1679570959640" duration="2192000" />
       <workItem from="1680092748504" duration="1327000" />
-      <workItem from="1680094142890" duration="711000" />
-    </task>
-    <task id="LOCAL-00051" summary="手撸基础020">
-      <created>1585730803164</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1585730803164</updated>
+      <workItem from="1680094142890" duration="1006000" />
+      <workItem from="1680182101102" duration="615000" />
+      <workItem from="1680692561178" duration="5915000" />
     </task>
     <task id="LOCAL-00052" summary="手撸基础021">
       <created>1585836152472</created>
@@ -957,7 +958,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679578982398</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="wait notify notifyall">
+      <created>1680096338602</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1680096338603</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1141,7 +1149,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="java 再学习03 if  循环结构" />
     <MESSAGE value="java 再学习03 if  九九乘法表" />
     <MESSAGE value="java 再学习03 if  方法-重载" />
     <MESSAGE value="java 再学习06 数组的定义-加班10点到家" />
@@ -1166,7 +1173,8 @@
     <MESSAGE value="synchronized 成员变量不安全，局部变量非引用安全。" />
     <MESSAGE value="synchronized monitor监视器保证线程安全" />
     <MESSAGE value="阻塞式io" />
-    <option name="LAST_COMMIT_MESSAGE" value="阻塞式io" />
+    <MESSAGE value="wait notify notifyall" />
+    <option name="LAST_COMMIT_MESSAGE" value="wait notify notifyall" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
