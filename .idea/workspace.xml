@@ -4,15 +4,13 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="wait notify notifyall">
-      <change afterPath="$PROJECT_DIR$/src/new2023/juc/WaitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/保护性暂停/GuardeObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/保护性暂停/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/生产者消费者模式/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/生产者消费者模式/MessageQuene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/生产者消费者模式/TestMessage.java" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="保护性暂停 生产者消费者 park unpark">
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/LiveLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/ThreadDeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/哲学家就餐问题/KeXueJia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/哲学家就餐问题/TestKZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/哲学家就餐问题/kuaiZi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/new2023/juc/SleepTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/new2023/juc/SleepTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,9 +254,9 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SleepTest">
-    <configuration name="InvokeSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.InvokeSynchronized" />
+  <component name="RunManager" selected="Application.TestKZ">
+    <configuration name="LiveLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.LiveLock" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -296,12 +294,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.保护性暂停.Test" />
+    <configuration name="TestKZ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.哲学家就餐问题.TestKZ" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="new2023.保护性暂停.*" />
+          <option name="PATTERN" value="new2023.哲学家就餐问题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,8 +320,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.WaitTest" />
+    <configuration name="ThreadDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.ThreadDeadLock" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -337,19 +335,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.InvokeSynchronized" />
-      <item itemvalue="Application.WaitTest" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.TestMessage" />
       <item itemvalue="Application.SleepTest" />
+      <item itemvalue="Application.ThreadDeadLock" />
+      <item itemvalue="Application.LiveLock" />
+      <item itemvalue="Application.TestKZ" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestKZ" />
+        <item itemvalue="Application.LiveLock" />
+        <item itemvalue="Application.ThreadDeadLock" />
         <item itemvalue="Application.SleepTest" />
         <item itemvalue="Application.TestMessage" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.WaitTest" />
-        <item itemvalue="Application.InvokeSynchronized" />
       </list>
     </recent_temporary>
   </component>
@@ -620,14 +618,8 @@
       <workItem from="1680092748504" duration="1327000" />
       <workItem from="1680094142890" duration="1006000" />
       <workItem from="1680182101102" duration="615000" />
-      <workItem from="1680692561178" duration="5915000" />
-    </task>
-    <task id="LOCAL-00052" summary="手撸基础021">
-      <created>1585836152472</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1585836152472</updated>
+      <workItem from="1680692561178" duration="6002000" />
+      <workItem from="1680785469103" duration="4195000" />
     </task>
     <task id="LOCAL-00053" summary="手撸基础022">
       <created>1591156416671</created>
@@ -965,7 +957,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680096338603</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="保护性暂停 生产者消费者 park unpark">
+      <created>1680704521432</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1680704521433</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1149,7 +1148,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="java 再学习03 if  九九乘法表" />
     <MESSAGE value="java 再学习03 if  方法-重载" />
     <MESSAGE value="java 再学习06 数组的定义-加班10点到家" />
     <MESSAGE value="java 再学习06 数组的定义-加班7点到家" />
@@ -1174,7 +1172,8 @@
     <MESSAGE value="synchronized monitor监视器保证线程安全" />
     <MESSAGE value="阻塞式io" />
     <MESSAGE value="wait notify notifyall" />
-    <option name="LAST_COMMIT_MESSAGE" value="wait notify notifyall" />
+    <MESSAGE value="保护性暂停 生产者消费者 park unpark" />
+    <option name="LAST_COMMIT_MESSAGE" value="保护性暂停 生产者消费者 park unpark" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
