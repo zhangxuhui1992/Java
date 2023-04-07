@@ -4,12 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="保护性暂停 生产者消费者 park unpark">
-      <change afterPath="$PROJECT_DIR$/src/new2023/juc/LiveLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/juc/ThreadDeadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/哲学家就餐问题/KeXueJia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/哲学家就餐问题/TestKZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/哲学家就餐问题/kuaiZi.java" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="死锁 活锁">
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/ReentantLockCondationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/ReentrantLockInturruptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/ReentrantLockTimeOutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/ReetranLockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,20 +253,7 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestKZ">
-    <configuration name="LiveLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.LiveLock" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="new2023.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReentantLockCondationTest">
     <configuration name="MainTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ybjt.study05.MainTest" />
       <module name="JavaSE" />
@@ -281,8 +267,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SleepTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.SleepTest" />
+    <configuration name="ReentantLockCondationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.ReentantLockCondationTest" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="new2023.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentrantLockInturruptTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.ReentrantLockInturruptTest" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="new2023.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentrantLockTimeOutTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.ReentrantLockTimeOutTest" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="new2023.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReetranLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.ReetranLockTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -307,47 +332,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.生产者消费者模式.TestMessage" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="new2023.生产者消费者模式.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.ThreadDeadLock" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="new2023.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.TestMessage" />
-      <item itemvalue="Application.SleepTest" />
-      <item itemvalue="Application.ThreadDeadLock" />
-      <item itemvalue="Application.LiveLock" />
       <item itemvalue="Application.TestKZ" />
+      <item itemvalue="Application.ReetranLockTest" />
+      <item itemvalue="Application.ReentrantLockInturruptTest" />
+      <item itemvalue="Application.ReentrantLockTimeOutTest" />
+      <item itemvalue="Application.ReentantLockCondationTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReentantLockCondationTest" />
+        <item itemvalue="Application.ReentrantLockTimeOutTest" />
+        <item itemvalue="Application.ReentrantLockInturruptTest" />
+        <item itemvalue="Application.ReetranLockTest" />
         <item itemvalue="Application.TestKZ" />
-        <item itemvalue="Application.LiveLock" />
-        <item itemvalue="Application.ThreadDeadLock" />
-        <item itemvalue="Application.SleepTest" />
-        <item itemvalue="Application.TestMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -619,14 +618,8 @@
       <workItem from="1680094142890" duration="1006000" />
       <workItem from="1680182101102" duration="615000" />
       <workItem from="1680692561178" duration="6002000" />
-      <workItem from="1680785469103" duration="4195000" />
-    </task>
-    <task id="LOCAL-00053" summary="手撸基础022">
-      <created>1591156416671</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1591156416671</updated>
+      <workItem from="1680785469103" duration="4473000" />
+      <workItem from="1680872335957" duration="3326000" />
     </task>
     <task id="LOCAL-00054" summary="手撸基础023">
       <created>1591177120863</created>
@@ -964,7 +957,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680704521433</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="死锁 活锁">
+      <created>1680790664080</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1680790664080</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1148,7 +1148,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="java 再学习03 if  方法-重载" />
     <MESSAGE value="java 再学习06 数组的定义-加班10点到家" />
     <MESSAGE value="java 再学习06 数组的定义-加班7点到家" />
     <MESSAGE value="java 再学习06 数组的内存定义-加班7点到家" />
@@ -1173,7 +1172,8 @@
     <MESSAGE value="阻塞式io" />
     <MESSAGE value="wait notify notifyall" />
     <MESSAGE value="保护性暂停 生产者消费者 park unpark" />
-    <option name="LAST_COMMIT_MESSAGE" value="保护性暂停 生产者消费者 park unpark" />
+    <MESSAGE value="死锁 活锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="死锁 活锁" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
