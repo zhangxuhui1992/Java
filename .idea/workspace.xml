@@ -4,11 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="死锁 活锁">
-      <change afterPath="$PROJECT_DIR$/src/new2023/juc/ReentantLockCondationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/juc/ReentrantLockInturruptTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/juc/ReentrantLockTimeOutTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new2023/juc/ReetranLockTest.java" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="ReentantLock可以被打断，可以设为公平锁，多条件变量，超时时间">
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/ControlPrintNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/ControlPrintNumParkUnPark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/ControlPrintNumReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/ControlRunswitchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -253,7 +253,59 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReentantLockCondationTest">
+  <component name="RunManager" selected="Application.ControlPrintNumParkUnPark">
+    <configuration name="ControlPrintNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.ControlPrintNum" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="new2023.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControlPrintNumParkUnPark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.ControlPrintNumParkUnPark" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="new2023.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControlPrintNumReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.ControlPrintNumReentrantLock" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="new2023.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControlRunswitchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.ControlRunswitchTest" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="new2023.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ybjt.study05.MainTest" />
       <module name="JavaSE" />
@@ -280,73 +332,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockInturruptTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.ReentrantLockInturruptTest" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="new2023.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReentrantLockTimeOutTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.ReentrantLockTimeOutTest" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="new2023.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReetranLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.ReetranLockTest" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="new2023.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestKZ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.哲学家就餐问题.TestKZ" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="new2023.哲学家就餐问题.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.TestKZ" />
-      <item itemvalue="Application.ReetranLockTest" />
-      <item itemvalue="Application.ReentrantLockInturruptTest" />
-      <item itemvalue="Application.ReentrantLockTimeOutTest" />
       <item itemvalue="Application.ReentantLockCondationTest" />
+      <item itemvalue="Application.ControlRunswitchTest" />
+      <item itemvalue="Application.ControlPrintNum" />
+      <item itemvalue="Application.ControlPrintNumReentrantLock" />
+      <item itemvalue="Application.ControlPrintNumParkUnPark" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ControlPrintNumParkUnPark" />
+        <item itemvalue="Application.ControlPrintNumReentrantLock" />
+        <item itemvalue="Application.ControlPrintNum" />
+        <item itemvalue="Application.ControlRunswitchTest" />
         <item itemvalue="Application.ReentantLockCondationTest" />
-        <item itemvalue="Application.ReentrantLockTimeOutTest" />
-        <item itemvalue="Application.ReentrantLockInturruptTest" />
-        <item itemvalue="Application.ReetranLockTest" />
-        <item itemvalue="Application.TestKZ" />
       </list>
     </recent_temporary>
   </component>
@@ -619,14 +619,8 @@
       <workItem from="1680182101102" duration="615000" />
       <workItem from="1680692561178" duration="6002000" />
       <workItem from="1680785469103" duration="4473000" />
-      <workItem from="1680872335957" duration="3326000" />
-    </task>
-    <task id="LOCAL-00054" summary="手撸基础023">
-      <created>1591177120863</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1591177120863</updated>
+      <workItem from="1680872335957" duration="3471000" />
+      <workItem from="1680918561053" duration="3280000" />
     </task>
     <task id="LOCAL-00055" summary="study">
       <created>1638357564170</created>
@@ -964,7 +958,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680790664080</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="ReentantLock可以被打断，可以设为公平锁，多条件变量，超时时间">
+      <created>1680877896617</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1680877896617</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1148,7 +1149,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="java 再学习06 数组的定义-加班10点到家" />
     <MESSAGE value="java 再学习06 数组的定义-加班7点到家" />
     <MESSAGE value="java 再学习06 数组的内存定义-加班7点到家" />
     <MESSAGE value="java 再学习07 线程" />
@@ -1173,7 +1173,8 @@
     <MESSAGE value="wait notify notifyall" />
     <MESSAGE value="保护性暂停 生产者消费者 park unpark" />
     <MESSAGE value="死锁 活锁" />
-    <option name="LAST_COMMIT_MESSAGE" value="死锁 活锁" />
+    <MESSAGE value="ReentantLock可以被打断，可以设为公平锁，多条件变量，超时时间" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReentantLock可以被打断，可以设为公平锁，多条件变量，超时时间" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
