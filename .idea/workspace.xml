@@ -4,8 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="volatile 保证可见性，有序性，不能保证原子性">
-      <change afterPath="$PROJECT_DIR$/src/new2023/内存模型/SingleLazyLoad.java" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="DCL双检锁">
+      <change afterPath="$PROJECT_DIR$/src/juc/AtomicIntergerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juc/AtomicReferenceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -250,13 +251,13 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingleLazyLoad">
-    <configuration name="BlakingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.内存模型.BlakingTest" />
+  <component name="RunManager" selected="Application.AtomicReferenceTest">
+    <configuration name="AtomicIntergerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.AtomicIntergerTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="new2023.内存模型.*" />
+          <option name="PATTERN" value="juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,12 +265,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControlPrintNumParkUnPark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.juc.ControlPrintNumParkUnPark" />
+    <configuration name="AtomicMarkableReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.AtomicMarkableReferenceDemo" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="new2023.juc.*" />
+          <option name="PATTERN" value="juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,12 +278,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleCheckingLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.内存模型.DoubleCheckingLock" />
+    <configuration name="AtomicReferenceFieldUpdaterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.AtomicReferenceFieldUpdaterDemo" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="new2023.内存模型.*" />
+          <option name="PATTERN" value="juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtomicReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.AtomicReferenceTest" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,34 +330,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="staticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.内存模型.staticTest" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="new2023.内存模型.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.ControlPrintNumParkUnPark" />
-      <item itemvalue="Application.staticTest" />
-      <item itemvalue="Application.BlakingTest" />
-      <item itemvalue="Application.DoubleCheckingLock" />
       <item itemvalue="Application.SingleLazyLoad" />
+      <item itemvalue="Application.AtomicMarkableReferenceDemo" />
+      <item itemvalue="Application.AtomicReferenceFieldUpdaterDemo" />
+      <item itemvalue="Application.AtomicIntergerTest" />
+      <item itemvalue="Application.AtomicReferenceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AtomicReferenceTest" />
+        <item itemvalue="Application.AtomicIntergerTest" />
+        <item itemvalue="Application.AtomicReferenceFieldUpdaterDemo" />
+        <item itemvalue="Application.AtomicMarkableReferenceDemo" />
         <item itemvalue="Application.SingleLazyLoad" />
-        <item itemvalue="Application.DoubleCheckingLock" />
-        <item itemvalue="Application.BlakingTest" />
-        <item itemvalue="Application.staticTest" />
-        <item itemvalue="Application.ControlPrintNumParkUnPark" />
       </list>
     </recent_temporary>
   </component>
@@ -617,14 +618,8 @@
       <workItem from="1680692561178" duration="6002000" />
       <workItem from="1680785469103" duration="4473000" />
       <workItem from="1680872335957" duration="3471000" />
-      <workItem from="1680918561053" duration="10818000" />
-    </task>
-    <task id="LOCAL-00057" summary="java 再学习01">
-      <created>1638367066905</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1638367066905</updated>
+      <workItem from="1680918561053" duration="10853000" />
+      <workItem from="1680998961639" duration="3784000" />
     </task>
     <task id="LOCAL-00058" summary="java 再学习01">
       <created>1638367482573</created>
@@ -962,7 +957,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680940431507</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="DCL双检锁">
+      <created>1680942731078</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1680942731078</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1146,7 +1148,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="java 再学习07 线程" />
     <MESSAGE value="异步任务：future CompletableFuture" />
     <MESSAGE value="Thread interrupt test" />
     <MESSAGE value="Thread 等待唤醒机制" />
@@ -1171,7 +1172,8 @@
     <MESSAGE value="ReentantLock可以被打断，可以设为公平锁，多条件变量，超时时间" />
     <MESSAGE value="控制线程执行次序" />
     <MESSAGE value="volatile 保证可见性，有序性，不能保证原子性" />
-    <option name="LAST_COMMIT_MESSAGE" value="volatile 保证可见性，有序性，不能保证原子性" />
+    <MESSAGE value="DCL双检锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="DCL双检锁" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
