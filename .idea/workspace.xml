@@ -4,9 +4,12 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="DCL双检锁">
-      <change afterPath="$PROJECT_DIR$/src/juc/AtomicIntergerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juc/AtomicReferenceTest.java" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="atomic aba问题">
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/AtomicArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/AtomicFileUpdateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/AtomicNumberAdder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/AtomicReferenceMarkeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new2023/juc/UnsafeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,6 +213,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowHierarchy.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -251,13 +255,13 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AtomicReferenceTest">
-    <configuration name="AtomicIntergerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.AtomicIntergerTest" />
+  <component name="RunManager" selected="Application.UnsafeTest">
+    <configuration name="AtomicArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.AtomicArrayTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.*" />
+          <option name="PATTERN" value="new2023.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,12 +269,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicMarkableReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.AtomicMarkableReferenceDemo" />
+    <configuration name="AtomicFileUpdateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.AtomicFileUpdateTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.*" />
+          <option name="PATTERN" value="new2023.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,12 +282,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicReferenceFieldUpdaterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.AtomicReferenceFieldUpdaterDemo" />
+    <configuration name="AtomicNumberAdder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.AtomicNumberAdder" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.*" />
+          <option name="PATTERN" value="new2023.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,12 +295,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.AtomicReferenceTest" />
+    <configuration name="AtomicReferenceMarkeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.AtomicReferenceMarkeTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.*" />
+          <option name="PATTERN" value="new2023.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,12 +321,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleLazyLoad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.内存模型.SingleLazyLoad" />
+    <configuration name="UnsafeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.juc.UnsafeTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="new2023.内存模型.*" />
+          <option name="PATTERN" value="new2023.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,19 +336,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.SingleLazyLoad" />
-      <item itemvalue="Application.AtomicMarkableReferenceDemo" />
-      <item itemvalue="Application.AtomicReferenceFieldUpdaterDemo" />
-      <item itemvalue="Application.AtomicIntergerTest" />
-      <item itemvalue="Application.AtomicReferenceTest" />
+      <item itemvalue="Application.AtomicReferenceMarkeTest" />
+      <item itemvalue="Application.AtomicArrayTest" />
+      <item itemvalue="Application.AtomicFileUpdateTest" />
+      <item itemvalue="Application.AtomicNumberAdder" />
+      <item itemvalue="Application.UnsafeTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AtomicReferenceTest" />
-        <item itemvalue="Application.AtomicIntergerTest" />
-        <item itemvalue="Application.AtomicReferenceFieldUpdaterDemo" />
-        <item itemvalue="Application.AtomicMarkableReferenceDemo" />
-        <item itemvalue="Application.SingleLazyLoad" />
+        <item itemvalue="Application.UnsafeTest" />
+        <item itemvalue="Application.AtomicNumberAdder" />
+        <item itemvalue="Application.AtomicFileUpdateTest" />
+        <item itemvalue="Application.AtomicArrayTest" />
+        <item itemvalue="Application.AtomicReferenceMarkeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -619,14 +623,8 @@
       <workItem from="1680785469103" duration="4473000" />
       <workItem from="1680872335957" duration="3471000" />
       <workItem from="1680918561053" duration="10853000" />
-      <workItem from="1680998961639" duration="3784000" />
-    </task>
-    <task id="LOCAL-00058" summary="java 再学习01">
-      <created>1638367482573</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1638367482573</updated>
+      <workItem from="1680998961639" duration="3867000" />
+      <workItem from="1681032727995" duration="5620000" />
     </task>
     <task id="LOCAL-00059" summary="java 再学习01">
       <created>1638443686079</created>
@@ -964,7 +962,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680942731078</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="atomic aba问题">
+      <created>1681004386191</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1681004386191</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1148,7 +1153,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="异步任务：future CompletableFuture" />
     <MESSAGE value="Thread interrupt test" />
     <MESSAGE value="Thread 等待唤醒机制" />
     <MESSAGE value="atomic 原子操作类" />
@@ -1173,7 +1177,8 @@
     <MESSAGE value="控制线程执行次序" />
     <MESSAGE value="volatile 保证可见性，有序性，不能保证原子性" />
     <MESSAGE value="DCL双检锁" />
-    <option name="LAST_COMMIT_MESSAGE" value="DCL双检锁" />
+    <MESSAGE value="atomic aba问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="atomic aba问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
