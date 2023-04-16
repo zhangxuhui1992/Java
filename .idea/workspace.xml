@@ -4,8 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="线程池">
-      <change afterPath="$PROJECT_DIR$/src/new2023/线程池/CountDownLunchTest.java" afterDir="false" />
+    <list default="true" id="8f646ea0-6969-4ebd-90c8-89baee49df62" name="Default Changelist" comment="线程计数器">
+      <change afterPath="$PROJECT_DIR$/src/new2023/线程池/ThreadLocalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -251,26 +251,13 @@
       <recent name="com.ybjt.study02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountDownLunchTest">
+  <component name="RunManager" selected="Application.ThreadLocalTest">
     <configuration name="CountDownLunchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="new2023.线程池.CountDownLunchTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="new2023.线程池.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateTimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new2023.不可变类.DateTimeTest" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="new2023.不可变类.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,6 +304,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new2023.线程池.ThreadLocalTest" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="new2023.线程池.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TimerTaskTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="new2023.线程池.TimerTaskTest" />
       <module name="JavaSE" />
@@ -332,19 +332,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.DateTimeTest" />
       <item itemvalue="Application.TestUtils" />
       <item itemvalue="Application.ExecOne" />
       <item itemvalue="Application.TimerTaskTest" />
       <item itemvalue="Application.CountDownLunchTest" />
+      <item itemvalue="Application.ThreadLocalTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadLocalTest" />
         <item itemvalue="Application.CountDownLunchTest" />
         <item itemvalue="Application.TimerTaskTest" />
         <item itemvalue="Application.ExecOne" />
         <item itemvalue="Application.TestUtils" />
-        <item itemvalue="Application.DateTimeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -625,14 +625,8 @@
       <workItem from="1681215678537" duration="491000" />
       <workItem from="1681300765381" duration="777000" />
       <workItem from="1681473624798" duration="4036000" />
-      <workItem from="1681564653819" duration="749000" />
-    </task>
-    <task id="LOCAL-00062" summary="java 再学习03 运算符">
-      <created>1638535119748</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1638535119749</updated>
+      <workItem from="1681564653819" duration="1397000" />
+      <workItem from="1681645865912" duration="1314000" />
     </task>
     <task id="LOCAL-00063" summary="java 再学习03 位运算">
       <created>1638539422425</created>
@@ -970,7 +964,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681481004200</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="线程计数器">
+      <created>1681565661341</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1681565661341</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1154,7 +1155,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="threadlocal 线程局部变量" />
     <MESSAGE value="集合collection,迭代器，增强for" />
     <MESSAGE value="ArrayList 新建扩容机制查看，new后为object类型的空数组，第一次添加数据时，扩容为默认的容量10。当容量不够时扩容机制为原来数组的1.5倍。" />
     <MESSAGE value="类加载机制 类只加载一次" />
@@ -1179,7 +1179,8 @@
     <MESSAGE value="原子数组、字段更新器、累加器、原子引用" />
     <MESSAGE value="不可变对象 无状态" />
     <MESSAGE value="线程池" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程池" />
+    <MESSAGE value="线程计数器" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程计数器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
